@@ -18,6 +18,20 @@ export default class extends Component {
         <h2>Works</h2>
         <Row>
           <Col sm={6}>
+            <a href="/works/inkdrop" onClick={Link.handleClick}>
+              <img src="/works/inkdrop_eyecatch.png" className="image-eyecatch" />
+              <h3>Inkdrop</h3>
+            </a>
+            <div className="work-description">
+              <div>
+              Markdown愛好者のためのノートアプリ
+              </div>
+              <div>
+              The Notebook App for Markdown Lovers
+              </div>
+            </div>
+          </Col>
+          <Col sm={6}>
             <a href="/works/walknote" onClick={Link.handleClick}>
               <img src="/works/walknote_eyecatch.png" className="image-eyecatch" />
               <h3>walknote</h3>
@@ -31,6 +45,8 @@ export default class extends Component {
               </div>
             </div>
           </Col>
+        </Row>
+        <Row>
           <Col sm={6}>
             <a href="/works/the-four-painters" onClick={Link.handleClick}>
               <img src="/works/the-four-painters_eyecatch.jpg" className="image-eyecatch" />
@@ -45,8 +61,6 @@ export default class extends Component {
               </div>
             </div>
           </Col>
-        </Row>
-        <Row>
           <Col sm={6}>
             <a href="/works/menkiki" onClick={Link.handleClick}>
               <img src="/works/menkiki_eyecatch.png" className="image-eyecatch" />
@@ -58,6 +72,24 @@ export default class extends Component {
               </div>
               <div>
               The app which can show ramen shops based on a photo of ramen you want to eat
+              </div>
+            </div>
+          </Col>
+        </Row>
+        <hr />
+        <h2>Collaborations</h2>
+        <Row>
+          <Col sm={6}>
+            <a href="/works/modetokyo" onClick={Link.handleClick}>
+              <img src="/works/modetokyo_eyecatch.png" className="image-eyecatch" />
+              <h3>mode.tokyo</h3>
+            </a>
+            <div className="work-description">
+              <div>
+              日本のモードを世界に発信する雑誌
+              </div>
+              <div>
+              The mode magazine for understanding to personally enjoy Japan
               </div>
             </div>
           </Col>

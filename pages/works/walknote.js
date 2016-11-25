@@ -23,7 +23,7 @@ export default class extends Component {
         <Row>
           <Col sm={6}>
             <img src="/works/walknote_eyecatch.png" className="image-eyecatch" />
-            <h3>walknote</h3>
+            <h3>walknote (2011-2016)</h3>
             <div className="work-description">
               <div>
               好みを理解して推薦する無料で聴き放題な音楽プレーヤー
@@ -31,11 +31,12 @@ export default class extends Component {
               <div>
               Free music discovery player
               </div>
-              <div>
-                <a className="link-appstore" href="https://itunes.apple.com/app/walknote-haomiwo-li-jieshite/id465898375?mt=8">
-                  <img src="/works/appstore.png" className="image-appstore" />
-                </a>
-              </div>
+            </div>
+            <div className="work-long-description">
+              本サービスは終了しました。
+              イギリスのスタートアップからバイアウトの話が来ましたが、残念ながらまとまりませんでした。
+              13万人ものユーザさまに使っていただき本当に感謝しています。
+              詳細は<a href='http://blog.odoruinu.net/2016/09/06/farewell-from-walknote/'>こちら</a>。
             </div>
           </Col>
           <Col sm={6}>

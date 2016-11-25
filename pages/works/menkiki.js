@@ -23,7 +23,7 @@ export default class extends Component {
         <Row>
           <Col sm={6}>
             <img src="/works/menkiki_eyecatch.png" className="image-eyecatch" />
-            <h3>麺利き</h3>
+            <h3>麺利き (2015)</h3>
             <div className="work-description">
               <div>
               らーめん写真に基づいてお店を提示する、らーめん屋推薦アプリ

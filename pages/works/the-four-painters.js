@@ -23,7 +23,7 @@ export default class extends Component {
         <Row>
           <Col sm={6}>
             <img src="/works/the-four-painters_eyecatch.jpg" className="image-eyecatch" />
-            <h3>the four painters</h3>
+            <h3>the four painters (2015)</h3>
             <div className="work-description">
               <div>
               実写映像を人工知能「ディープラーニング」でゴッホや葛飾北斎っぽく変換した映像作品
