@@ -46,8 +46,8 @@ export default class extends Component {
           </div>
           <div>
             He creates digital services/stuffs which he wants itself.
-            He is a 'Digital Craftsman', that is, he does plan, design, code and operate through all his products.
-            His interests and skills are not limited to a certain platform and a technology but including iOS app, web app, machine learning, etc.
+            He calls himself 'Digital Craftsman', that is, he does planning, designing, coding and operating through all his products.
+            He makes iOS app, web app and uses machine learning, so his interests and skills are not limited to a certain platform and a technology.
             He participates many projects as a freelancer who creates new stuff fully customized from scratch.
           </div>
         </div>
