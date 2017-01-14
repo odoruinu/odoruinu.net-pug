@@ -13,7 +13,7 @@ export default class extends Component {
   render() {
     return (
       <div>
-        <img className="top-image" src="http://41.media.tumblr.com/250f26d9da2b15641b9ed84d3a1f2845/tumblr_o0h0lr04GB1v49knto1_1280.jpg" width="100%" />
+        <img className="top-image" src="/cover.jpg" width="100%" />
       </div>
     );
   }
