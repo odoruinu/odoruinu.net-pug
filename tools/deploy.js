@@ -11,7 +11,7 @@ import task from './lib/task';
 const remote = {
   name: 'github',
   url: 'https://github.com/noradaiko/noradaiko.github.io.git',
-  branch: 'gh-pages',
+  branch: 'master',
 };
 
 /**
