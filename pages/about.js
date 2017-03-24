@@ -6,6 +6,7 @@
 
 import React, { Component } from 'react';
 import './about.scss';
+import { Glyphicon } from 'react-bootstrap';
 
 export default class extends Component {
   static title = 'About';
@@ -15,11 +16,14 @@ export default class extends Component {
       <div className="about">
         <h2>Takuya Matsuyama</h2>
         <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+        <p>
+          <Glyphicon glyph='map-marker' /> Tokyo, Japan
+        </p>
         <div>
           <img className="top-image" src="https://farm6.staticflickr.com/5688/22863546315_12dd51f402_h.jpg" width="100%" alt="L1011534" />
         </div>
         <div className="section">
-          <strong>Bio: </strong>
+          <strong>Bio:</strong>
           <div>
             1984 大阪生まれ
             / Born in Osaka, Japan.
@@ -32,11 +36,11 @@ export default class extends Component {
             2010 ヤフー株式会社入社 / Works at Yahoo! Japan
           </div>
           <div>
-            2012 独立 / Currently working as a freelancer
+            2012 to present フリーランス / Freelance
           </div>
         </div>
         <div className="section">
-          <strong>Work: </strong>
+          <strong>Work:</strong>
           <div>
             デジタル領域を中心に、自身の欲しいと思ったサービスを制作。
             企画からデザイン・開発・運用まで全て一人で行う。
@@ -45,10 +49,9 @@ export default class extends Component {
             枠に囚われずオーダーメイドで柔軟にモノを作る「クラフトマンシップ」を得意とする。
           </div>
           <div>
-            He creates digital services/stuffs which he wants itself.
-            He calls himself 'Digital Craftsman', that is, he does planning, designing, coding and operating through all his products.
-            He makes iOS app, web app and uses machine learning, so his interests and skills are not limited to a certain platform and a technology.
-            He participates many projects as a freelancer who creates new stuff fully customized from scratch.
+            Takuya is a freelance and a full-stack developer based in Tokyo with passion for building digital services/stuffs he wants.
+            He has a knack for all things launching products, from planning and designing all the way to solving real-life problems with code.
+            When not online, he loves hanging out with his camera.
           </div>
         </div>
         <div className="section">
