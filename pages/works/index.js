@@ -93,6 +93,20 @@ export default class extends Component {
               </div>
             </div>
           </Col>
+          <Col sm={6}>
+            <a href="/works/styly" onClick={Link.handleClick}>
+              <img src="/works/styly_eyecatch.png" className="image-eyecatch" />
+              <h3>STYLY</h3>
+            </a>
+            <div className="work-description">
+              <div>
+              ファッションブランドのためのVRツール
+              </div>
+              <div>
+              VR Creative tools for fashion brand
+              </div>
+            </div>
+          </Col>
         </Row>
         <hr />
         <h2>Old works</h2>
