@@ -33,7 +33,7 @@ export default class extends Component {
             / Completed the Master's Program in the Graduate School of Information Science at Nara Institute of Science and Technology
           </div>
           <div>
-            2010 ヤフー株式会社入社 / Works at Yahoo! Japan
+            2010 ヤフー株式会社入社 / Worked at Yahoo! Japan
           </div>
           <div>
             2012 to present フリーランス / Freelance
