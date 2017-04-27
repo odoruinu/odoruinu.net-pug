@@ -64,7 +64,7 @@ export default class extends Component {
           <strong>Contact me: </strong>
           <ul>
             <li>
-              <a href="https://twitter.com/noradaiko">Twitter @noradaiko</a>
+              <a href="https://twitter.com/craftzdog">Twitter @craftzdog</a>
             </li>
             <li>
               <a href="https://github.com/noradaiko">GitHub</a>

@@ -22,20 +22,20 @@ function Navigation() {
           <a className="Navigation-link" href="http://illust.odoruinu.net/">Illustrations</a>
         </li>
         <li className="Navigation-item">
-          <a className="Navigation-link" href="https://500px.com/noradaiko">Photos</a>
+          <a className="Navigation-link" href="https://500px.com/craftzdog">Photos</a>
         </li>
         <li className="Navigation-item">
           <a className="Navigation-link" href="http://blog.odoruinu.net/">Blog</a>
         </li>
       </ul>
       <div className="Navigation-icon-group">
-        <a className="Navigation-link Navigation-icon" href="https://www.instagram.com/noradaiko/">
+        <a className="Navigation-link Navigation-icon" href="https://www.instagram.com/craftzdog/">
           <i className="fa fa-instagram" />
         </a>
         <a className="Navigation-link Navigation-icon" href="https://github.com/noradaiko">
           <i className="fa fa-github" />
         </a>
-        <a className="Navigation-link Navigation-icon" href="https://twitter.com/noradaiko">
+        <a className="Navigation-link Navigation-icon" href="https://twitter.com/craftzdog">
           <i className="fa fa-twitter" />
         </a>
       </div>
