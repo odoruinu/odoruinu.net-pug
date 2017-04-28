@@ -32,7 +32,7 @@ function Navigation() {
         <a className="Navigation-link Navigation-icon" href="https://www.instagram.com/craftzdog/">
           <i className="fa fa-instagram" />
         </a>
-        <a className="Navigation-link Navigation-icon" href="https://github.com/noradaiko">
+        <a className="Navigation-link Navigation-icon" href="https://github.com/craftzdog">
           <i className="fa fa-github" />
         </a>
         <a className="Navigation-link Navigation-icon" href="https://twitter.com/craftzdog">
