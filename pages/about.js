@@ -17,10 +17,10 @@ export default class extends Component {
         <h2>Takuya Matsuyama</h2>
         <p>Digital Craftsman ( Artist / Developer / Designer )</p>
         <p>
-          <Glyphicon glyph='map-marker' /> Tokyo, Japan
+          <Glyphicon glyph="map-marker" /> Tokyo, Japan
         </p>
         <div>
-          <img className="top-image" src="https://farm6.staticflickr.com/5688/22863546315_12dd51f402_h.jpg" width="100%" alt="L1011534" />
+          <img className="top-image" src="https://farm5.staticflickr.com/4161/34587513605_271b49457a_k_d.jpg" width="100%" alt="My Work Style" />
         </div>
         <div className="section">
           <strong>Bio:</strong>
