@@ -10,7 +10,7 @@ import task from './lib/task';
 // TODO: Update deployment URL
 const remote = {
   name: 'github',
-  url: 'https://github.com/noradaiko/noradaiko.github.io.git',
+  url: 'https://github.com/odoruinu/odoruinu.github.io.git',
   branch: 'master',
 };
 
