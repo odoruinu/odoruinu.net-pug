@@ -80,7 +80,7 @@ export default class extends Component {
               <a href="https://github.com/craftzdog">GitHub</a>
             </li>
             <li>
-              <a href="mailto:nora@odoruinu.net">E-mail</a>
+              <a href="mailto:hi@craftz.dog">E-mail</a>
             </li>
           </ul>
         </section>
