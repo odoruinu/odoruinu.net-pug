@@ -20,48 +20,58 @@ export default class extends Component {
           <Glyphicon glyph="map-marker" /> Tokyo, Japan
         </p>
         <div>
-          <img className="top-image" src="https://farm5.staticflickr.com/4161/34587513605_271b49457a_k_d.jpg" width="100%" alt="My Work Style" />
+          <img className="me" src="/me.jpg" width="100%" alt="My Work Style" />
         </div>
-        <div className="section">
-          <strong>Bio:</strong>
-          <div>
-            1984 大阪生まれ
-            / Born in Osaka, Japan.
-          </div>
-          <div>
-            2010 奈良先端科学技術大学院大学情報科学研究科修士課程修了
-            / Completed the Master's Program in the Graduate School of Information Science at Nara Institute of Science and Technology
-          </div>
-          <div>
-            2010 ヤフー株式会社入社 / Worked at Yahoo! Japan
-          </div>
-          <div>
-            2012 to present フリーランス / Freelance
-          </div>
-        </div>
-        <div className="section">
-          <strong>Work:</strong>
-          <div>
+        <section className="bio">
+          <h3>Bio:</h3>
+          <p>
+            <em>1984</em>
+            Born in Osaka, Japan.
+            <br />
+            大阪生まれ
+          </p>
+          <p>
+            <em>2010</em>
+            Completed the Master's Program in the Graduate School of Information Science at Nara Institute of Science and Technology
+            <br />
+            奈良先端科学技術大学院大学情報科学研究科修士課程修了
+          </p>
+          <p>
+            <em>2010</em>
+            Worked at Yahoo! Japan
+            <br />
+            ヤフー株式会社入社
+          </p>
+          <p>
+            <em>2012 to present</em>
+            Works as a freelance
+            <br />
+            フリーランス
+          </p>
+        </section>
+        <section>
+          <h3>Work:</h3>
+          <p>
+            Takuya is a freelance and a full-stack developer based in Tokyo with passion for building digital services/stuffs he wants.
+            He has a knack for all things launching products, from planning and designing all the way to solving real-life problems with code.
+            When not online, he loves hanging out with his camera.
+          </p>
+          <p>
             デジタル領域を中心に、自身の欲しいと思ったサービスを制作。
             企画からデザイン・開発・運用まで全て一人で行う。
             iOSなどのスマホアプリからウェブアプリまで、技術やプラットフォームを限定せず幅広く活動。
             その傍ら、フリーランスとして様々なプロジェクトに参加。
             枠に囚われずオーダーメイドで柔軟にモノを作る「クラフトマンシップ」を得意とする。
-          </div>
-          <div>
-            Takuya is a freelance and a full-stack developer based in Tokyo with passion for building digital services/stuffs he wants.
-            He has a knack for all things launching products, from planning and designing all the way to solving real-life problems with code.
-            When not online, he loves hanging out with his camera.
-          </div>
-        </div>
-        <div className="section">
-          <strong>I ♥: </strong>
+          </p>
+        </section>
+        <section>
+          <h3>I ♥: </h3>
           <div>
             Art, Music, Drawing, Playing Drums, Photography, Leica, Machine Learning
           </div>
-        </div>
-        <div className="section">
-          <strong>Contact me: </strong>
+        </section>
+        <section>
+          <h3>Contact me: </h3>
           <ul>
             <li>
               <a href="https://twitter.com/craftzdog">Twitter</a>
@@ -73,7 +83,7 @@ export default class extends Component {
               <a href="mailto:nora@odoruinu.net">E-mail</a>
             </li>
           </ul>
-        </div>
+        </section>
       </div>
     );
   }

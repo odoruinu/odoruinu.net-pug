@@ -41,7 +41,7 @@ export default class extends Component {
               好みを理解して推薦する無料で聴き放題な音楽プレーヤー
               </div>
               <div>
-              Free music discovery player
+              Free music discovery player for iOS
               </div>
             </div>
           </Col>

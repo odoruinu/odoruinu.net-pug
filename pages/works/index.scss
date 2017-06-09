@@ -1,11 +1,27 @@
 @import '../../components/variables.scss';
 
+.works-list {
+  h3 {
+    font-weight: lighter;
+  }
+}
+
+.work-detail {
+  h3 {
+    font-weight: bold;
+    color: #303010;
+  }
+}
+
 .works-list, .work-detail {
   img.image-eyecatch, img.image-screenshot {
     width: 100%;
+    border: 8px solid white;
     border-radius: 4px;
-    //border: 8px solid white;
     box-shadow: 0 2px 2px 0px rgba(0,0,0,0.2);
+  }
+  img.image-eyecatch {
+    margin-bottom: 1em;
   }
   img.image-screenshot {
     margin-bottom: 1em;
@@ -16,7 +32,6 @@
   h3 {
     text-align: center;
     font-size: 1.4em;
-    font-weight: lighter;
   }
   h4 {
     font-size: 1.0em;
@@ -33,6 +48,9 @@
   }
   .work-long-description {
     font-weight: lighter;
+    p {
+      text-indent: 1em;
+    }
   }
   .breadcrumb-chevron {
     color: rgba(0,0,0,0.2);

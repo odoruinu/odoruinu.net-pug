@@ -1,10 +1,33 @@
 @import './index.scss';
 
 .about {
-  .section {
+  img {
+    border: 8px solid white;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0px rgba(0,0,0,0.2);
+  }
+  section {
     margin: 0.8em 0;
+    font-weight: lighter;
+    em {
+      font-weight: bold;
+      margin-right: 1em;
+    }
     strong {
       color: $text-color;
     }
+    p {
+      text-indent: 1em;
+    }
+  }
+  section.bio {
+    p {
+      padding-left:3.4em;
+      text-indent:-3.4em;
+    }
+  }
+  h3 {
+    font-size: 14px;
+    color: $text-color;
   }
 }

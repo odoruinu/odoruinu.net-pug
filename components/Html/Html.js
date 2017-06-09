@@ -17,6 +17,8 @@ function Html({ title, description, body, debug }) {
         <title>{title || config.title}</title>
         <meta name="description" content={description || config.description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="author" content="Takuya Matsuyama" />
+        <meta name="author" content="craftzdog" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700|Lato:300,400" />
