@@ -5,7 +5,7 @@
  */
 
 export default {
-  title: '踊る犬.net - Takuya Matsuyama',
+  title: 'Craftzdog - Takuya Matsuyama',
   description: 'Takuya Matsuyama\'s Homepage',
   googleAnalyticsId: 'UA-34060591-1',
 };

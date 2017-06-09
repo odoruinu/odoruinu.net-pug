@@ -18,7 +18,7 @@ function Layout({ children }) {
           <a href="/" onClick={Link.handleClick}>
             <img src="/dog-icon.png" width="120px" />
           </a>
-          <h1 className="title">ODORUINU.NET</h1>
+          <h1 className="title">CRAFTZDOG</h1>
           <Navigation />
         </Col>
         <Col sm={9}>
