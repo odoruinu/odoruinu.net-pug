@@ -9,6 +9,11 @@ import React, { Component } from 'react';
 // import { Grid, Col, Row } from 'react-bootstrap';
 
 export default class extends Component {
+  componentDidMount() {
+    if (location.host === 'www.odoruinu.net') {
+      location.href = 'https://www.craftz.dog/';
+    }
+  }
 
   render() {
     return (
