@@ -25,7 +25,7 @@ function Navigation() {
           <a className="Navigation-link" href="https://500px.com/craftzdog">Photos</a>
         </li>
         <li className="Navigation-item">
-          <a className="Navigation-link" href="https://medium.com/odoruinu">Blog</a>
+          <a className="Navigation-link" href="https://blog.craftz.dog/">Blog</a>
         </li>
       </ul>
       <div className="Navigation-icon-group">
