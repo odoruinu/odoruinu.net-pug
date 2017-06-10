@@ -6,11 +6,11 @@
 
 import React, { Component } from 'react';
 import Link from '../../components/Link';
-import { Col, Row } from 'react-bootstrap';
 import './index.scss';
 
 export default class extends Component {
   static title = 'The Four Painters';
+  static image = '/works/the-four-painters_eyecatch.png';
 
   render() {
     return (

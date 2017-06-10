@@ -11,6 +11,7 @@ import './index.scss';
 
 export default class extends Component {
   static title = '麺利き';
+  static image = '/works/menkiki_eyecatch.png';
 
   render() {
     return (

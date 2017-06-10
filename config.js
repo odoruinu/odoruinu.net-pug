@@ -5,6 +5,7 @@
  */
 
 export default {
+  baseUrl: 'https://www.craftz.dog',
   title: 'Craftzdog - Takuya Matsuyama',
   description: 'Takuya Matsuyama\'s Homepage',
   googleAnalyticsId: 'UA-34060591-1',

@@ -11,6 +11,7 @@ import './index.scss';
 
 export default class extends Component {
   static title = 'walknote';
+  static image = '/works/walknote_eyecatch.png';
 
   render() {
     return (

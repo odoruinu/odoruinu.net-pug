@@ -11,6 +11,7 @@ import './index.scss';
 
 export default class extends Component {
   static title = 'Amembo';
+  static image = '/works/amembo_eyecatch.png';
 
   render() {
     return (

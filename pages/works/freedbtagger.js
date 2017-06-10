@@ -6,11 +6,11 @@
 
 import React, { Component } from 'react';
 import Link from '../../components/Link';
-import { Col, Row } from 'react-bootstrap';
 import './index.scss';
 
 export default class extends Component {
   static title = 'freeDBTagger';
+  static image = '/works/freedbtagger_eyecatch.png';
 
   render() {
     return (

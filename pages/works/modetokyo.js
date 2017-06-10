@@ -11,6 +11,7 @@ import './index.scss';
 
 export default class extends Component {
   static title = 'mode.tokyo';
+  static image = '/works/modetokyo_eyecatch.png';
 
   render() {
     return (

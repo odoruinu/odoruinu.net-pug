@@ -8,7 +8,9 @@ import React, { PropTypes } from 'react';
 import GoogleAnalytics from '../GoogleAnalytics';
 import config from '../../config';
 
-function Html({ title, description, body, debug }) {
+function Html({ title, description, image, body, debug }) {
+  const coverUrl = `${config.baseUrl}/cover.jpg`;
+  const imageUrl = image ? `${config.baseUrl}${image}` : coverUrl
   return (
     <html className="no-js" lang="">
       <head>
@@ -25,13 +27,13 @@ function Html({ title, description, body, debug }) {
         <meta name="twitter:creator" content="@craftzdog" />
         <meta name="twitter:title" content={title || config.title} />
         <meta name="twitter:description" content={description || config.description} />
-        <meta name="twitter:image" content="https://www.craftz.dog/cover.jpg" />
+        <meta name="twitter:image" content={imageUrl} />
 
         <meta property="og:site_name" content="Takuya Matsuyama's Homepage" />
         <meta property="og:title" content={title || config.title} />
         <meta property="og:description" content={description || config.description} />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.craftz.dog/cover.jpg" />
+        <meta property="og:image" content={imageUrl} />
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
