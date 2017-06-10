@@ -4,6 +4,7 @@
  * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
  */
 
+import './404.scss';
 import React, { Component } from 'react';
 
 export default class extends Component {
@@ -35,7 +36,8 @@ export default class extends Component {
       );
     } else {
       return (
-        <div>
+        <div className="not-found-page">
+          <img src="/dog_depressed.png" className="top-image" width="50%" alt="Dog depressed" />
           <h1>Not Found</h1>
           <p>The page you're looking for was not found.</p>
         </div>
