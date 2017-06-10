@@ -1,4 +1,8 @@
-# react static website of おどる犬.net
+# react static website of www.craftz.dog
+
+This project is a fork of [kriasoft/react-static-boilerplate](https://github.com/kriasoft/react-static-boilerplate).
+It includes some improvements such as Twitter Card and Open Graph support.
+Feel free to fork me to bootstrap your website!
 
 [![NPM version](http://img.shields.io/npm/v/generator-react-static.svg?style=flat-square)](https://www.npmjs.com/package/generator-react-static)
 [![NPM downloads](http://img.shields.io/npm/dm/generator-react-static.svg?style=flat-square)](https://www.npmjs.com/package/generator-react-static)
@@ -8,7 +12,7 @@
 > A static website starter kit powered by [React.js](http://facebook.github.io/react/)
 > and [Webpack](http://webpack.github.io/).
 
-Visit [demo site](http://react-static.tarkus.me) &nbsp;|&nbsp;
+Visit [my homepage](https://www.craftz.dog/) &nbsp;|&nbsp;
 See [roadmap](https://waffle.io/koistya/react-static-boilerplate) &nbsp;|&nbsp;
 Join [#react-static-boilerplate](https://gitter.im/koistya/react-static-boilerplate) chatroom on Gitter to stay up to date.
 
@@ -23,6 +27,7 @@ Join [#react-static-boilerplate](https://gitter.im/koistya/react-static-boilerpl
 &nbsp; &nbsp; ✓ [Code-splitting](https://github.com/webpack/docs/wiki/code-splitting) and async chunk loading<br>
 &nbsp; &nbsp; ✓ Easy deployment to [GitHub Pages](https://pages.github.com/), [Amazon S3](http://davidwalsh.name/hosting-website-amazon-s3) or [Firebase](https://www.firebase.com/)<br>
 &nbsp; &nbsp; ✓ [Yeoman](http://yeoman.io/) generator ([generator-react-static](https://www.npmjs.com/package/generator-react-static))<br>
+&nbsp; &nbsp; ✓ Twitter Card and Open Graph protocol support<br>
 
 ### Directory Layout
 
@@ -54,7 +59,7 @@ Just clone the repo, install Node.js modules and run `npm start`:
 
 ```
 $ git clone -o react-static-boilerplate -b master --single-branch \
-      https://github.com/koistya/react-static-boilerplate.git MyApp
+      https://github.com/odoruinu/odoruinu.net-pug.git MyApp
 $ cd MyApp
 $ npm install
 $ npm start
@@ -108,4 +113,4 @@ $ npm install
   * [Learn ES6](https://babeljs.io/docs/learn-es6/), [ES6 Features](https://github.com/lukehoban/es6features#readme)
 
 ---
-Made with ♥ by Konstantin Tarkus ([@koistya](https://twitter.com/koistya)) and [contributors](https://github.com/koistya/react-static-boilerplate/graphs/contributors) &nbsp;|&nbsp; MIT License
+Made with ♥ by Takuya Matsuyama ([@craftzdog](https://twitter.com/craftzdog)), Konstantin Tarkus ([@koistya](https://twitter.com/koistya)) and [contributors](https://github.com/koistya/react-static-boilerplate/graphs/contributors) &nbsp;|&nbsp; MIT License
