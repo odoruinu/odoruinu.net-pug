@@ -31,7 +31,7 @@ function Html({ title, description, body, debug }) {
         <meta property="og:title" content={title || config.title} />
         <meta property="og:description" content={description || config.description} />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="/cover.jpg" />
+        <meta property="og:image" content="https://www.craftz.dog/cover.jpg" />
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
