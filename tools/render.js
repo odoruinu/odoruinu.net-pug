@@ -37,14 +37,12 @@ function getPages() {
 }
 
 async function renderPage(page, component, content) {
-  console.log('content:', content.title, 'image:', content.image)
   const title = content.title ? `${content.title} - ${config.title}` : null;
   const data = {
     body: ReactDOM.renderToString(component),
     title: title,
     image: content.image,
   };
-  console.log('data:', data)
   const file = join(__dirname, '../build', page.file.substr(0, page.file.lastIndexOf('.')) + '.html');
   const html = '<!doctype html>\n' + ReactDOM.renderToStaticMarkup(<Html debug={DEBUG} {...data} />);
   await fs.mkdir(dirname(file));
