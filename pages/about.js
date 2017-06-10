@@ -27,7 +27,7 @@ export default class extends Component {
         <section>
           <h3>Why craftzdog?:</h3>
           <p>
-            It's an abbreviation for 'craftsman' + 'dog'. My avatar is dog icon for long time since I've started to live in the internet.
+            It's an abbreviation for 'craftsman' + 'dog'. My avatar is dog icon for long time since I've started publishing my works on the internet.
             I love craftsmanship, I'd be a craftsman.
             So I decided to call myself 'craftsdog' but this username was already taken by someone on Twitter.
             That's why I'm using craftzdog as my internet identity now.
