@@ -13,6 +13,12 @@ export default class extends Component {
   static image = '/works/freedbtagger_eyecatch.png';
   static description = 'Automatic Audio File Tagger using FreeDB';
 
+  componentDidMount() {
+    if (location.host === 'www.odoruinu.net') {
+      location.href = `https://www.craftz.dog${location.pathname}`;
+    }
+  }
+
   render() {
     return (
       <div className="work-detail">
