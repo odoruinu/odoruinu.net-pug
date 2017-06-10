@@ -24,6 +24,19 @@ export default class extends Component {
         <div>
           <img className="me" src="/me.jpg" width="100%" alt="My Work Style" />
         </div>
+        <section>
+          <h3>Why craftzdog?:</h3>
+          <p>
+            It's an abbreviation for 'craftsman' + 'dog'. My avatar is dog icon for long time since I've started to live in the internet.
+            I love craftsmanship, I'd be a craftsman.
+            So I decided to call myself 'craftsdog' but this username was already taken by someone on Twitter.
+            That's why I'm using craftzdog as my internet identity now.
+          </p>
+          <p>
+            My old handle name is 'noradaiko'.
+            I changed it because it's hard to remember especially for non-Japanese speakers.
+          </p>
+        </section>
         <section className="bio">
           <h3>Bio:</h3>
           <p>
@@ -73,7 +86,7 @@ export default class extends Component {
           </div>
         </section>
         <section>
-          <h3>Contact me: </h3>
+          <h3>Contact me:</h3>
           <ul>
             <li>
               <a href="https://twitter.com/craftzdog">Twitter</a>
