@@ -25,7 +25,7 @@ function Html({ title, description, body, debug }) {
         <meta name="twitter:creator" content="@craftzdog" />
         <meta name="twitter:title" content={title || config.title} />
         <meta name="twitter:description" content={description || config.description} />
-        <meta name="twitter:image" content="/cover.jpg" />
+        <meta name="twitter:image" content="https://www.craftz.dog/cover.jpg" />
 
         <meta property="og:site_name" content="Takuya Matsuyama's Homepage" />
         <meta property="og:title" content={title || config.title} />
