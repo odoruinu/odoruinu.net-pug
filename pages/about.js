@@ -10,6 +10,7 @@ import { Glyphicon } from 'react-bootstrap';
 
 export default class extends Component {
   static title = 'About';
+  static image = '/me.jpg';
 
   render() {
     return (
