@@ -11,6 +11,7 @@ import './index.scss';
 export default class extends Component {
   static title = 'Inkdrop';
   static image = '/works/inkdrop_eyecatch.png';
+  static description = 'The Notebook App Made for Markdown Lovers';
 
   render() {
     return (
@@ -34,7 +35,7 @@ export default class extends Component {
             Markdown好きのためのノートアプリ
           </div>
           <div>
-            The Notebook App for Markdown Lovers
+            The Notebook App Made for Markdown Lovers
           </div>
         </div>
         <div>

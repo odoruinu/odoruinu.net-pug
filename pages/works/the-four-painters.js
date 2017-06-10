@@ -11,6 +11,7 @@ import './index.scss';
 export default class extends Component {
   static title = 'The Four Painters';
   static image = '/works/the-four-painters_eyecatch.png';
+  static description = 'A Video Work Created with Deep Learning';
 
   render() {
     return (

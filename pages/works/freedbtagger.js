@@ -11,6 +11,7 @@ import './index.scss';
 export default class extends Component {
   static title = 'freeDBTagger';
   static image = '/works/freedbtagger_eyecatch.png';
+  static description = 'Automatic Audio File Tagger using FreeDB';
 
   render() {
     return (

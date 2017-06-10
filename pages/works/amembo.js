@@ -6,12 +6,12 @@
 
 import React, { Component } from 'react';
 import Link from '../../components/Link';
-import { Col, Row } from 'react-bootstrap';
 import './index.scss';
 
 export default class extends Component {
   static title = 'Amembo';
   static image = '/works/amembo_eyecatch.png';
+  static description = 'P2P private file sharing tool supporting MSN Messenger';
 
   render() {
     return (

@@ -12,6 +12,7 @@ import './index.scss';
 export default class extends Component {
   static title = '麺利き';
   static image = '/works/menkiki_eyecatch.png';
+  static description = 'The app which can show ramen shops based on a photo of ramen you want to eat';
 
   render() {
     return (

@@ -12,6 +12,7 @@ import './index.scss';
 export default class extends Component {
   static title = 'STYLY';
   static image = '/works/styly_eyecatch.png';
+  static description = 'VR Creative tools for fashion brand';
 
   render() {
     return (

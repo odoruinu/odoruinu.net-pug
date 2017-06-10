@@ -11,6 +11,7 @@ import { Glyphicon } from 'react-bootstrap';
 export default class extends Component {
   static title = 'About';
   static image = '/me.jpg';
+  static description = 'Takuya is a freelance and a full-stack developer based in Tokyo with passion for building digital services/stuffs he wants.'
 
   render() {
     return (

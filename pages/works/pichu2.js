@@ -12,6 +12,7 @@ import './index.scss';
 export default class extends Component {
   static title = 'pichu*pichu';
   static image = '/works/pichu2_eyecatch.png';
+  static description = 'Twitter client app for iPhone Safari';
 
   render() {
     return (

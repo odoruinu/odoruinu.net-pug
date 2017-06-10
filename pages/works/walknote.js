@@ -12,6 +12,7 @@ import './index.scss';
 export default class extends Component {
   static title = 'walknote';
   static image = '/works/walknote_eyecatch.png';
+  static description = 'Free music discovery player for iOS';
 
   render() {
     return (
