@@ -20,10 +20,10 @@ const route = async (path, callback) => {
     component = component.default
   }
   let rootNode = process.env.NODE_ENV === 'production' ? (
-    <Layout>{React.createElement(component)}</Layout>
+    <Layout path={path}>{React.createElement(component)}</Layout>
   ) : (
     <AppContainer>
-      <Layout>{React.createElement(component)}</Layout>
+      <Layout path={path}>{React.createElement(component)}</Layout>
     </AppContainer>
   )
   if (module.hot && process.env.NODE_ENV !== 'production') {
