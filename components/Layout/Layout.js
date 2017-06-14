@@ -13,10 +13,6 @@ import { Grid, Col, Row } from 'react-bootstrap'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
 class Layout extends Component {
-  componentWillUnmount () {
-    console.log('unmount!!!')
-  }
-
   render () {
     return (
       <Grid className='Layout'>
@@ -31,7 +27,7 @@ class Layout extends Component {
           <Col sm={9}>
             <ReactCSSTransitionGroup
               transitionName='page-transition'
-              transitionEnterTimeout={1000}
+              transitionEnterTimeout={900}
               transitionLeaveTimeout={300}
             >
               {[

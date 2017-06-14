@@ -1,0 +1,11 @@
+
+.float-transition-appear {
+  opacity: 0.01;
+  transform: translateY(20px);
+}
+
+.float-transition-appear.float-transition-appear-active {
+  opacity: 1;
+  transition: opacity 700ms ease-out, transform 700ms ease-out;
+  transform: translateY(0);
+}

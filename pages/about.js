@@ -7,6 +7,7 @@
 import React, { Component } from 'react'
 import './about.scss'
 import { Glyphicon } from 'react-bootstrap'
+import FloatedSection from '../components/floated-section'
 
 export default class AboutPage extends Component {
   static title = 'About';
@@ -21,10 +22,10 @@ export default class AboutPage extends Component {
         <p>
           <Glyphicon glyph='map-marker' /> Tokyo, Japan
         </p>
-        <div>
+        <FloatedSection delay={200}>
           <img className='me' src='/me.jpg' width='100%' alt='My Work Style' />
-        </div>
-        <section>
+        </FloatedSection>
+        <FloatedSection delay={300}>
           <h3>Why craftzdog?:</h3>
           <p>
             It&apos;s an abbreviation for &apos;craftsman&apos; + &apos;dog&apos;. My avatar is dog icon for long time since I&apos;ve started publishing my works on the internet.
@@ -36,8 +37,8 @@ export default class AboutPage extends Component {
             My old handle name is &apos;noradaiko&apos;.
             I changed it because it&apos;s hard to remember especially for non-Japanese speakers.
           </p>
-        </section>
-        <section className='bio'>
+        </FloatedSection>
+        <FloatedSection delay={400} className='bio'>
           <h3>Bio:</h3>
           <p>
             <em>1984</em>
@@ -63,8 +64,8 @@ export default class AboutPage extends Component {
             <br />
             フリーランス
           </p>
-        </section>
-        <section>
+        </FloatedSection>
+        <FloatedSection delay={500}>
           <h3>Work:</h3>
           <p>
             Takuya is a freelance and a full-stack developer based in Tokyo with passion for building digital services/stuffs he wants.
@@ -78,7 +79,7 @@ export default class AboutPage extends Component {
             その傍ら、フリーランスとして様々なプロジェクトに参加。
             枠に囚われずオーダーメイドで柔軟にモノを作る「クラフトマンシップ」を得意とする。
           </p>
-        </section>
+        </FloatedSection>
         <section>
           <h3>I ♥: </h3>
           <div>

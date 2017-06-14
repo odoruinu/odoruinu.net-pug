@@ -69,19 +69,19 @@ body {
   .page-container {
     position: absolute;
     top: 0;
-    padding-bottom: 1em;
+    padding-bottom: 3em;
   }
 }
 
 .page-transition-enter {
   opacity: 0.01;
-  transform: translateY(40px);
+  transform: translateY(20px);
 }
 
 .page-transition-enter.page-transition-enter-active {
   opacity: 1;
   transition: opacity 700ms ease-out, transform 700ms ease-out;
-  transition-delay: 300ms;
+  transition-delay: 200ms;
   transform: translateY(0);
 }
 
@@ -93,5 +93,5 @@ body {
 .page-transition-leave.page-transition-leave-active {
   opacity: 0.01;
   transition: opacity 300ms ease-in, transform 300ms ease-in;
-  transform: translateY(40px);
+  transform: translateY(20px);
 }
