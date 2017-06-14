@@ -9,12 +9,6 @@ import React, { Component } from 'react'
 // import { Grid, Col, Row } from 'react-bootstrap';
 
 export default class IndexPage extends Component {
-  componentDidMount () {
-    if (window.location.host === 'www.odoruinu.net') {
-      window.location.href = 'https://www.craftz.dog/'
-    }
-  }
-
   render () {
     return (
       <div className='top-page'>
