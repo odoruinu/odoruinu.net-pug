@@ -4,40 +4,35 @@
  * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
  */
 
-import React, { Component } from 'react';
-import Link from '../../components/Link';
-import './index.scss';
+import React, { Component } from 'react'
+import WorkPageLayout from '../../components/work-page-layout'
+import './index.scss'
 
-export default class extends Component {
+export default class WorkPage extends Component {
   static title = 'freeDBTagger';
   static image = '/works/freedbtagger_eyecatch.png';
   static description = 'Automatic Audio File Tagger using FreeDB';
 
-  componentDidMount() {
-    if (location.host === 'www.odoruinu.net') {
-      location.href = `https://www.craftz.dog${location.pathname}`;
+  componentDidMount () {
+    if (window.location.host === 'www.odoruinu.net') {
+      window.location.href = `https://www.craftz.dog${window.location.pathname}`
     }
   }
 
-  render() {
+  render () {
     return (
-      <div className="work-detail">
-        <h2>
-          <a href="/works/" onClick={Link.handleClick}>Works</a>
-          <span className="breadcrumb-chevron">&gt;</span>
-          freeDBTagger
-        </h2>
+      <WorkPageLayout
+        title={WorkPage.title}
+        eyecatch='/works/freedbtagger_eyecatch.png'
+      >
         <div>
-          <img src="/works/freedbtagger_eyecatch.png" className="image-eyecatch" />
-        </div>
-        <div>
-          <img src="/works/freedbtagger_01.jpg" className="image-screenshot" />
+          <img src='/works/freedbtagger_01.jpg' className='image-screenshot' />
         </div>
         <h3>
-          <img src="/works/freedbtagger_icon.gif" />
+          <img src='/works/freedbtagger_icon.gif' />
         </h3>
         <h3>freeDBTagger</h3>
-        <div className="work-description">
+        <div className='work-description'>
           <div>
           楽曲長の組み合わせでアルバムを特定して楽曲情報を自動入力
           </div>
@@ -47,7 +42,7 @@ export default class extends Component {
           <div>
             <ul>
               <li>
-                <a className="link-appstore" href="http://odoruinu.net.s3.amazonaws.com/software/freedbtagger/fdbt105.zip">
+                <a className='link-appstore' href='http://odoruinu.net.s3.amazonaws.com/software/freedbtagger/fdbt105.zip'>
                 ダウンロード
                 </a>
               </li>
@@ -57,21 +52,21 @@ export default class extends Component {
             </ul>
           </div>
           <p>
-          アルバム内楽曲の再生時間の組み合わせで、CDDBサーバー“freeDB.org”を検索してアルバムを特定、楽曲情報を取得できるID3タグ一括編集ソフト。本ソフトを起動し、読み込んだアルバム1枚分の音楽ファイルの曲順を整えて［アルバム検索］を実行すれば、あとは本ソフトが、オープンソースで運営されているCDDBサーバー“freeDB.org”で再生時間の組み合わせからアルバムを特定して、アルバム名や曲名、アーチスト名などの情報を取得してくれる。MP3/WMA/Ogg Vorbis/AAC/Monkey's Audio/MPEGplus/FLAC/Twin VQ/WavPackファイルの楽曲情報を取得・編集できるほか、CDAファイルの楽曲情報を表示可能。MP3ファイルのタグに登録する場合のタグ形式は、ID3v1・ID3v2に対応しており、設定画面で選択可能。タグ項目内の文字数が30文字以上の場合のみ、ID3v2に登録する機能も備えている。
+          アルバム内楽曲の再生時間の組み合わせで、CDDBサーバー“freeDB.org”を検索してアルバムを特定、楽曲情報を取得できるID3タグ一括編集ソフト。本ソフトを起動し、読み込んだアルバム1枚分の音楽ファイルの曲順を整えて［アルバム検索］を実行すれば、あとは本ソフトが、オープンソースで運営されているCDDBサーバー“freeDB.org”で再生時間の組み合わせからアルバムを特定して、アルバム名や曲名、アーチスト名などの情報を取得してくれる。MP3/WMA/Ogg Vorbis/AAC/Monkey&apos;s Audio/MPEGplus/FLAC/Twin VQ/WavPackファイルの楽曲情報を取得・編集できるほか、CDAファイルの楽曲情報を表示可能。MP3ファイルのタグに登録する場合のタグ形式は、ID3v1・ID3v2に対応しており、設定画面で選択可能。タグ項目内の文字数が30文字以上の場合のみ、ID3v2に登録する機能も備えている。
           </p>
         </div>
         <h3>掲載実績</h3>
-        <div className="work-description">
+        <div className='work-description'>
           <ul>
             <li>
-              <a href="http://www.forest.impress.co.jp/library/software/freedbtagger/" target="_blank">
+              <a href='http://www.forest.impress.co.jp/library/software/freedbtagger/' target='_blank' rel='noopener noreferrer'>
               窓の杜ライブラリ
               </a>
             </li>
           </ul>
         </div>
         <h3>ユーザさんの声</h3>
-        <div className="work-description">
+        <div className='work-description'>
           <dl>
             <dt>
             FLACにも対応 - よーすけさん
@@ -115,13 +110,11 @@ export default class extends Component {
             ただ、ほんのちょっと不安定さを感じたので４つ...
             </dd>
           </dl>
-          <a href="http://www.vector.co.jp/soft/cmt/win95/art/se350576.html" target="_blank">
+          <a href='http://www.vector.co.jp/soft/cmt/win95/art/se350576.html' target='_blank' rel='noopener noreferrer'>
           Vectorより
           </a>
         </div>
-      </div>
-    );
+      </WorkPageLayout>
+    )
   }
-
 }
-

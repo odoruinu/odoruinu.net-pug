@@ -4,25 +4,24 @@
  * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
  */
 
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
-export default class extends Component {
-
+export default class ErrorPage extends Component {
   static propTypes = {
-    error: PropTypes.instanceOf(Error),
+    error: PropTypes.instanceOf(Error)
   };
 
-  render() {
+  render () {
     return (
       <div>
         <h1>Error</h1>
         <pre>{
-          this.props.error ?
-            this.props.error.message + '\n\n' + this.props.error.stack :
-            'A critical error occurred.'
+          this.props.error
+            ? this.props.error.message + '\n\n' + this.props.error.stack
+            : 'A critical error occurred.'
         }</pre>
       </div>
-    );
+    )
   }
-
 }

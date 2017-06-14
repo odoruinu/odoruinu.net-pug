@@ -4,25 +4,25 @@
  * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
  */
 
-import React, { Component } from 'react';
-import Link from '../../components/Link';
-import { Col, Row } from 'react-bootstrap';
-import './index.scss';
+import React, { Component } from 'react'
+import Link from '../../components/Link'
+import { Col, Row } from 'react-bootstrap'
+import './index.scss'
 
-export default class extends Component {
+export default class WorkPage extends Component {
   static title = 'Works';
 
-  render() {
+  render () {
     return (
-      <div className="works-list">
+      <div className='works-list'>
         <h2>Works</h2>
         <Row>
           <Col sm={6}>
-            <a href="/works/inkdrop" onClick={Link.handleClick}>
-              <img src="/works/inkdrop_eyecatch.png" className="image-eyecatch" />
+            <Link to='/works/inkdrop'>
+              <img src='/works/inkdrop_eyecatch.png' className='image-eyecatch' />
               <h3>Inkdrop</h3>
-            </a>
-            <div className="work-description">
+            </Link>
+            <div className='work-description'>
               <div>
               Markdown愛好者のためのノートアプリ
               </div>
@@ -32,11 +32,11 @@ export default class extends Component {
             </div>
           </Col>
           <Col sm={6}>
-            <a href="/works/walknote" onClick={Link.handleClick}>
-              <img src="/works/walknote_eyecatch.png" className="image-eyecatch" />
+            <Link to='/works/walknote'>
+              <img src='/works/walknote_eyecatch.png' className='image-eyecatch' />
               <h3>walknote</h3>
-            </a>
-            <div className="work-description">
+            </Link>
+            <div className='work-description'>
               <div>
               好みを理解して推薦する無料で聴き放題な音楽プレーヤー
               </div>
@@ -48,11 +48,11 @@ export default class extends Component {
         </Row>
         <Row>
           <Col sm={6}>
-            <a href="/works/the-four-painters" onClick={Link.handleClick}>
-              <img src="/works/the-four-painters_eyecatch.jpg" className="image-eyecatch" />
+            <Link to='/works/the-four-painters'>
+              <img src='/works/the-four-painters_eyecatch.jpg' className='image-eyecatch' />
               <h3>the four painters</h3>
-            </a>
-            <div className="work-description">
+            </Link>
+            <div className='work-description'>
               <div>
               実写映像を人工知能「ディープラーニング」でゴッホや葛飾北斎っぽく変換した映像作品
               </div>
@@ -62,11 +62,11 @@ export default class extends Component {
             </div>
           </Col>
           <Col sm={6}>
-            <a href="/works/menkiki" onClick={Link.handleClick}>
-              <img src="/works/menkiki_eyecatch.png" className="image-eyecatch" />
+            <Link to='/works/menkiki'>
+              <img src='/works/menkiki_eyecatch.png' className='image-eyecatch' />
               <h3>麺利き</h3>
-            </a>
-            <div className="work-description">
+            </Link>
+            <div className='work-description'>
               <div>
               らーめん写真に基づいてお店を提示する、らーめん屋推薦アプリ
               </div>
@@ -80,11 +80,11 @@ export default class extends Component {
         <h2>Collaborations</h2>
         <Row>
           <Col sm={6}>
-            <a href="/works/modetokyo" onClick={Link.handleClick}>
-              <img src="/works/modetokyo_eyecatch.png" className="image-eyecatch" />
+            <Link to='/works/modetokyo'>
+              <img src='/works/modetokyo_eyecatch.png' className='image-eyecatch' />
               <h3>mode.tokyo</h3>
-            </a>
-            <div className="work-description">
+            </Link>
+            <div className='work-description'>
               <div>
               日本のモードを世界に発信する雑誌
               </div>
@@ -94,11 +94,11 @@ export default class extends Component {
             </div>
           </Col>
           <Col sm={6}>
-            <a href="/works/styly" onClick={Link.handleClick}>
-              <img src="/works/styly_eyecatch.png" className="image-eyecatch" />
+            <Link to='/works/styly'>
+              <img src='/works/styly_eyecatch.png' className='image-eyecatch' />
               <h3>STYLY</h3>
-            </a>
-            <div className="work-description">
+            </Link>
+            <div className='work-description'>
               <div>
               ファッションブランドのためのVRツール
               </div>
@@ -112,11 +112,11 @@ export default class extends Component {
         <h2>Old works</h2>
         <Row>
           <Col sm={6}>
-            <a href="/works/pichu2" onClick={Link.handleClick}>
-              <img src="/works/pichu2_eyecatch.png" className="image-eyecatch" />
+            <Link to='/works/pichu2'>
+              <img src='/works/pichu2_eyecatch.png' className='image-eyecatch' />
               <h3>pichu*pichu</h3>
-            </a>
-            <div className="work-description">
+            </Link>
+            <div className='work-description'>
               <div>
               iPhone Safari用Twitterクライアント
               </div>
@@ -126,11 +126,11 @@ export default class extends Component {
             </div>
           </Col>
           <Col sm={6}>
-            <a href="/works/freedbtagger" onClick={Link.handleClick}>
-              <img src="/works/freedbtagger_eyecatch.png" className="image-eyecatch" />
+            <Link to='/works/freedbtagger'>
+              <img src='/works/freedbtagger_eyecatch.png' className='image-eyecatch' />
               <h3>freeDBTagger</h3>
-            </a>
-            <div className="work-description">
+            </Link>
+            <div className='work-description'>
               <div>
               楽曲長の組み合わせでアルバムを特定して楽曲情報を自動入力
               </div>
@@ -142,11 +142,11 @@ export default class extends Component {
         </Row>
         <Row>
           <Col sm={6}>
-            <a href="/works/amembo" onClick={Link.handleClick}>
-              <img src="/works/amembo_eyecatch.png" className="image-eyecatch" />
+            <Link to='/works/amembo'>
+              <img src='/works/amembo_eyecatch.png' className='image-eyecatch' />
               <h3>amembo</h3>
-            </a>
-            <div className="work-description">
+            </Link>
+            <div className='work-description'>
               <div>
               「MSN Messenger」と連係して特定ユーザーとP2Pフォルダ共有できる「Amembo」
               </div>
@@ -161,7 +161,6 @@ export default class extends Component {
           随時更新
         </div>
       </div>
-    );
+    )
   }
-
 }

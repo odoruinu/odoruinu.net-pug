@@ -4,42 +4,37 @@
  * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
  */
 
-import React, { Component } from 'react';
-import Link from '../../components/Link';
-import { Col, Row } from 'react-bootstrap';
-import './index.scss';
+import React, { Component } from 'react'
+import { Col, Row } from 'react-bootstrap'
+import './index.scss'
+import WorkPageLayout from '../../components/work-page-layout'
 
-export default class extends Component {
+export default class WorkPage extends Component {
   static title = '麺利き';
   static image = '/works/menkiki_eyecatch.png';
   static description = 'The app which can show ramen shops based on a photo of ramen you want to eat';
 
-  render() {
+  render () {
     return (
-      <div className="work-detail">
-        <h2>
-          <a href="/works/" onClick={Link.handleClick}>Works</a>
-          <span className="breadcrumb-chevron">&gt;</span>
-          麺利き
-        </h2>
-        <div>
-          <img src="/works/menkiki_eyecatch.png" className="image-eyecatch" />
-        </div>
+      <WorkPageLayout
+        title={WorkPage.title}
+        eyecatch='/works/menkiki_eyecatch.png'
+      >
         <Row>
           <Col sm={6}>
             <div>
-              <img src="/works/menkiki_01.png" className="image-screenshot" />
+              <img src='/works/menkiki_01.png' className='image-screenshot' />
             </div>
           </Col>
           <Col sm={6}>
             <div>
-              <img src="/works/menkiki_02.png" className="image-screenshot" />
+              <img src='/works/menkiki_02.png' className='image-screenshot' />
             </div>
           </Col>
         </Row>
 
         <h3>麺利き (2015)</h3>
-        <div className="work-description">
+        <div className='work-description'>
           <div>
           らーめん写真に基づいてお店を提示する、らーめん屋推薦アプリ
           </div>
@@ -47,12 +42,12 @@ export default class extends Component {
           The app which can show ramen shops based on a photo of ramen you want to eat
           </div>
           <div>
-            <a className="link-appstore" href="https://itunes.apple.com/app/麺利き/id1035645520?mt=8">
-              <img src="/works/appstore.png" className="image-appstore" />
+            <a className='link-appstore' href='https://itunes.apple.com/app/麺利き/id1035645520?mt=8'>
+              <img src='/works/appstore.png' className='image-appstore' />
             </a>
           </div>
         </div>
-        <div className="work-long-description">
+        <div className='work-long-description'>
           <h4>写真で「こんな感じ！」が伝えられる新しい探し方</h4>
           <p>
           食べておいしかったらーめん、ありますよね。
@@ -67,13 +62,11 @@ export default class extends Component {
           </p>
         </div>
         <div>
-          <a href="http://sssslide.com/speakerdeck.com/noradaiko/caffedeoshou-qing-ben-ge-deipuraninguiosapuri" target="_blank">
+          <a href='http://sssslide.com/speakerdeck.com/noradaiko/caffedeoshou-qing-ben-ge-deipuraninguiosapuri' target='_blank' rel='noopener noreferrer'>
           技術的な解説
           </a>
         </div>
-      </div>
-    );
+      </WorkPageLayout>
+    )
   }
-
 }
-

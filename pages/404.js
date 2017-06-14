@@ -4,27 +4,27 @@
  * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
  */
 
-import './404.scss';
-import React, { Component } from 'react';
+import './404.scss'
+import React, { Component } from 'react'
 
-export default class extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
+export default class NotFoundPage extends Component {
+  constructor (props) {
+    super(props)
+    this.state = {}
   }
 
-  componentWillMount() {
+  componentWillMount () {
     if (typeof window !== 'undefined') {
-      const { pathname } = window.location;
+      const { pathname } = window.location
       if (pathname.startsWith('/blog')) {
-        const redirectTo = 'http://blog.odoruinu.net' + pathname;
-        window.location.replace(redirectTo);
-        this.setState({ redirectTo });
+        const redirectTo = 'http://blog.odoruinu.net' + pathname
+        window.location.replace(redirectTo)
+        this.setState({ redirectTo })
       }
     }
   }
 
-  render() {
+  render () {
     if (this.state.redirectTo) {
       return (
         <div>
@@ -33,16 +33,15 @@ export default class extends Component {
             <a href={this.state.redirectTo}>{ this.state.redirectTo }</a>
           </p>
         </div>
-      );
+      )
     } else {
       return (
-        <div className="not-found-page">
-          <img src="/dog_depressed.png" className="top-image" width="50%" alt="Dog depressed" />
+        <div className='not-found-page'>
+          <img src='/dog_depressed.png' className='top-image' width='50%' alt='Dog depressed' />
           <h1>Not Found</h1>
-          <p>The page you're looking for was not found.</p>
+          <p>The page you&apos;re looking for was not found.</p>
         </div>
-      );
+      )
     }
   }
-
 }

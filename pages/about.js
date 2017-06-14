@@ -4,40 +4,40 @@
  * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
  */
 
-import React, { Component } from 'react';
-import './about.scss';
-import { Glyphicon } from 'react-bootstrap';
+import React, { Component } from 'react'
+import './about.scss'
+import { Glyphicon } from 'react-bootstrap'
 
-export default class extends Component {
+export default class AboutPage extends Component {
   static title = 'About';
   static image = '/me.jpg';
   static description = 'Takuya is a freelance and a full-stack developer based in Tokyo with passion for building digital services/stuffs he wants.'
 
-  render() {
+  render () {
     return (
-      <div className="about">
+      <div className='about'>
         <h2>Takuya Matsuyama</h2>
         <p>Digital Craftsman ( Artist / Developer / Designer )</p>
         <p>
-          <Glyphicon glyph="map-marker" /> Tokyo, Japan
+          <Glyphicon glyph='map-marker' /> Tokyo, Japan
         </p>
         <div>
-          <img className="me" src="/me.jpg" width="100%" alt="My Work Style" />
+          <img className='me' src='/me.jpg' width='100%' alt='My Work Style' />
         </div>
         <section>
           <h3>Why craftzdog?:</h3>
           <p>
-            It's an abbreviation for 'craftsman' + 'dog'. My avatar is dog icon for long time since I've started publishing my works on the internet.
-            I love craftsmanship, I'd be a craftsman.
-            So I decided to call myself 'craftsdog' but this username was already taken by someone on Twitter.
-            That's why I'm using craftzdog as my internet identity now.
+            It&apos;s an abbreviation for &apos;craftsman&apos; + &apos;dog&apos;. My avatar is dog icon for long time since I&apos;ve started publishing my works on the internet.
+            I love craftsmanship, I&apos;d be a craftsman.
+            So I decided to call myself &apos;craftsdog&apos; but this username was already taken by someone on Twitter.
+            That&apos;s why I&apos;m using craftzdog as my internet identity now.
           </p>
           <p>
-            My old handle name is 'noradaiko'.
-            I changed it because it's hard to remember especially for non-Japanese speakers.
+            My old handle name is &apos;noradaiko&apos;.
+            I changed it because it&apos;s hard to remember especially for non-Japanese speakers.
           </p>
         </section>
-        <section className="bio">
+        <section className='bio'>
           <h3>Bio:</h3>
           <p>
             <em>1984</em>
@@ -47,7 +47,7 @@ export default class extends Component {
           </p>
           <p>
             <em>2010</em>
-            Completed the Master's Program in the Graduate School of Information Science at Nara Institute of Science and Technology
+            Completed the Master&apos;s Program in the Graduate School of Information Science at Nara Institute of Science and Technology
             <br />
             奈良先端科学技術大学院大学情報科学研究科修士課程修了
           </p>
@@ -89,18 +89,17 @@ export default class extends Component {
           <h3>Contact me:</h3>
           <ul>
             <li>
-              <a href="https://twitter.com/craftzdog">Twitter</a>
+              <a href='https://twitter.com/craftzdog'>Twitter</a>
             </li>
             <li>
-              <a href="https://github.com/craftzdog">GitHub</a>
+              <a href='https://github.com/craftzdog'>GitHub</a>
             </li>
             <li>
-              <a href="mailto:hi@craftz.dog">E-mail</a>
+              <a href='mailto:hi@craftz.dog'>E-mail</a>
             </li>
           </ul>
         </section>
       </div>
-    );
+    )
   }
-
 }

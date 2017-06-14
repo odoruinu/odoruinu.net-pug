@@ -1,0 +1,54 @@
+.work-detail {
+  h3 {
+    font-weight: bold;
+    color: #303010;
+  }
+  img.image-eyecatch, img.image-screenshot {
+    width: 100%;
+    border: 8px solid white;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0px rgba(0,0,0,0.2);
+  }
+  img.image-eyecatch {
+    margin-bottom: 1em;
+  }
+  img.image-screenshot {
+    margin-bottom: 1em;
+  }
+  a > h3 {
+    color: $text-color;
+  }
+  h3 {
+    text-align: center;
+    font-size: 1.4em;
+  }
+  h4 {
+    font-size: 1.0em;
+  }
+  .work-description {
+    margin-bottom: 1em;
+    p {
+      margin: 0.4em 0;
+    }
+    dd {
+      margin: 0.3em 0.0em 0.6em 0.3em;
+      font-weight: lighter;
+    }
+  }
+  .work-long-description {
+    font-weight: lighter;
+    p {
+      text-indent: 1em;
+      color: color(rgb(143, 143, 143) blackness(100%));
+    }
+  }
+  .breadcrumb-chevron {
+    color: rgba(0,0,0,0.2);
+    margin: 0 0.3em;
+  }
+  img.image-appstore {
+    display: block;
+    width: 200px;
+    margin: 1em auto;
+  }
+}

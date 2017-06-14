@@ -4,21 +4,22 @@
  * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
  */
 
-import React, { PropTypes } from 'react';
-import './Layout.scss';
-import Navigation from '../Navigation';
-import Link from '../Link';
-import { Grid, Col, Row } from 'react-bootstrap';
+import React from 'react'
+import PropTypes from 'prop-types'
+import './Layout.scss'
+import Navigation from '../Navigation'
+import Link from '../Link'
+import { Grid, Col, Row } from 'react-bootstrap'
 
-function Layout({ children }) {
+function Layout ({ children }) {
   return (
-    <Grid className="Layout">
+    <Grid className='Layout'>
       <Row>
-        <Col sm={3} className="header-left-side">
-          <a href="/" onClick={Link.handleClick}>
-            <img src="/dog-icon.png" width="120px" />
-          </a>
-          <h1 className="title">CRAFTZDOG</h1>
+        <Col sm={3} className='header-left-side'>
+          <Link to='/'>
+            <img src='/dog-icon.png' width='120px' />
+          </Link>
+          <h1 className='title'>CRAFTZDOG</h1>
           <Navigation />
         </Col>
         <Col sm={9}>
@@ -26,11 +27,11 @@ function Layout({ children }) {
         </Col>
       </Row>
     </Grid>
-  );
+  )
 }
 
 Layout.propTypes = {
-  children: PropTypes.element.isRequired,
-};
+  children: PropTypes.element.isRequired
+}
 
-export default Layout;
+export default Layout
