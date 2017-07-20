@@ -59,7 +59,7 @@ export default class WorkPage extends Component {
             You can listen to recommended music just like a radio!
           </p>
           <p>
-            This service has been closed. Thank you for using it.
+            This service has been closed. Thank you for over 130,000 registered users!
           </p>
         </div>
         <h3>掲載実績</h3>
