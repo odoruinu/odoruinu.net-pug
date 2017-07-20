@@ -30,7 +30,7 @@ export default class AboutPage extends Component {
           <p>
             It&apos;s an abbreviation for &apos;craftsman&apos; + &apos;dog&apos;. My avatar is dog icon for long time since I&apos;ve started publishing my works on the internet.
             I love craftsmanship, I&apos;d be a craftsman.
-            So I decided to call myself &apos;craftsdog&apos; but this username was already taken by someone on Twitter.
+            That's why I decided to call myself &apos;craftsdog&apos; but this username was already taken by someone on Twitter.
             That&apos;s why I&apos;m using craftzdog as my internet identity now.
           </p>
           <p>
