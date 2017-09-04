@@ -33,13 +33,13 @@ export default class WorkPage extends Component {
           </Col>
         </Row>
 
-        <h3>麺利き (2015)</h3>
+        <h3>麺利き (Ramelier) (2015)</h3>
         <div className='work-description'>
           <div>
           らーめん写真に基づいてお店を提示する、らーめん屋推薦アプリ
           </div>
           <div>
-          The app which can show ramen shops based on a photo of ramen you want to eat
+          The app which can show ramen shops based on picture of ramens you want to eat
           </div>
           <div>
             <a className='link-appstore' href='https://itunes.apple.com/app/麺利き/id1035645520?mt=8'>
@@ -48,6 +48,24 @@ export default class WorkPage extends Component {
           </div>
         </div>
         <div className='work-long-description'>
+          <p>
+            Ramelier suggests ramen(Chinese noodle) shops based on a photo of ramen you want to eat.
+            You don&quote;t need to know Japanese keywords to search shops, just choose a picture of it and the app will find appropriate shops for you.
+            It supports 900+ famous ramen shops in Japan!
+          </p>
+          <p>
+            So you can check a shop info as soon as you found a good ramen shop in a food magazine.
+          </p>
+          <p>
+            Let&quote;s go out and eat delicious ramen!
+          </p>
+          <p>
+            <ul>
+              <li>Ramen shop recommendation based on photo</li>
+              <li>Show shops near your current location</li>
+              <li>Open in Tabelog/Foursquare</li>
+            </ul>
+          </p>
           <h4>写真で「こんな感じ！」が伝えられる新しい探し方</h4>
           <p>
           食べておいしかったらーめん、ありますよね。
