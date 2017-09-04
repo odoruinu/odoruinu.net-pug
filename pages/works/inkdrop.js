@@ -45,7 +45,10 @@ export default class WorkPage extends Component {
         <div className='work-long-description'>
           <ul>
             <li>
-            ブログ記事: <a href='http://blog.odoruinu.net/2016/10/04/inkdrop/'>ハッカー向けノートアプリ「Inkdrop」をリリースしました</a>
+              Blog: <a href='https://hackernoon.com/markdown-note-taking-app-can-now-cover-half-of-rent-inkdrop-795de224ebf'>Markdown Note-taking App Can Now Cover Half of Rent</a>
+            </li>
+            <li>
+              ブログ記事: <a href='https://blog.craftz.dog/inkdrop%E3%81%A7%E5%AE%B6%E8%B3%83%E3%81%AE%E5%8D%8A%E5%88%86%E3%81%8C%E8%B3%84%E3%81%88%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F-3f30f4e1e479'>MarkdownノートアプリInkdropで家賃の半分が賄えるようになりました</a>
             </li>
           </ul>
         </div>

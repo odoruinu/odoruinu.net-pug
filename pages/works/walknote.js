@@ -55,11 +55,11 @@ export default class WorkPage extends Component {
         </div>
         <div className='work-long-description'>
           <p>
-            walknote recommends new music you may like based on your music preferences by recognizing you based on songs stored in your device.
+            walknote recommends new music you may like based on your music preferences by recognizing your favorite songs stored in your device.
             You can listen to recommended music just like a radio!
           </p>
           <p>
-            This service has been closed. Thank you for using it.
+            This service has been closed. Thank you for over 130,000 registered users!
           </p>
         </div>
         <h3>掲載実績</h3>
