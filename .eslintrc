@@ -5,11 +5,14 @@
     "plugin:react/recommended"
   ],
   "globals": {
-    "__DEV__": true
+    "__DEV__": true,
+    "fetch": true,
+    "FormData": true
   },
   "rules": {
     "react/jsx-quotes": 0,
     "jsx-quotes": [2, "prefer-single"],
-    "no-useless-escape": 0
+    "no-useless-escape": 0,
+    "no-return-assign": 0
   }
 }

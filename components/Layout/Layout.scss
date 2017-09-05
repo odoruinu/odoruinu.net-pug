@@ -95,3 +95,11 @@ body {
   transition: opacity 300ms ease-in, transform 300ms ease-in;
   transform: translateY(20px);
 }
+
+.right.aligned {
+  text-align: right;
+}
+
+.center.aligned {
+  text-align: center;
+}

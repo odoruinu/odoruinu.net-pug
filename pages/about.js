@@ -8,6 +8,7 @@ import React, { Component } from 'react'
 import './about.scss'
 import { Glyphicon } from 'react-bootstrap'
 import FloatedSection from '../components/floated-section'
+import Link from '../components/Link'
 
 export default class AboutPage extends Component {
   static title = 'About';
@@ -30,7 +31,7 @@ export default class AboutPage extends Component {
           <p>
             It&apos;s an abbreviation for &apos;craftsman&apos; + &apos;dog&apos;. My avatar is dog icon for long time since I&apos;ve started publishing my works on the internet.
             I love craftsmanship, I&apos;d be a craftsman.
-            That's why I decided to call myself &apos;craftsdog&apos; but this username was already taken by someone on Twitter.
+            That&apos;s why I decided to call myself &apos;craftsdog&apos; but this username was already taken by someone on Twitter.
             So I&apos;m using craftzdog as my internet identity now.
           </p>
           <p>
@@ -84,6 +85,14 @@ export default class AboutPage extends Component {
           <h3>I ♥: </h3>
           <div>
             Art, Music, Drawing, Playing Drums, Photography, Leica, Machine Learning
+          </div>
+        </section>
+        <section>
+          <h3>Got some works to request to me?:</h3>
+          <div>
+            That's great!
+            I'm available for freelance work, I want to hear about your projects.
+            Please submit your message from <Link to='/contact'>the contact form</Link>.
           </div>
         </section>
         <section>
