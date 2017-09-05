@@ -50,14 +50,14 @@ export default class WorkPage extends Component {
         <div className='work-long-description'>
           <p>
             Ramelier suggests ramen(Chinese noodle) shops based on a photo of ramen you want to eat.
-            You don&quote;t need to know Japanese keywords to search shops, just choose a picture of it and the app will find appropriate shops for you.
+            You don&apos;t need to know Japanese keywords to search shops, just choose a picture of it and the app will find appropriate shops for you.
             It supports 900+ famous ramen shops in Japan!
           </p>
           <p>
             So you can check a shop info as soon as you found a good ramen shop in a food magazine.
           </p>
           <p>
-            Let&quote;s go out and eat delicious ramen!
+            Let&apos;s go out and eat delicious ramen!
           </p>
           <p>
             <ul>
