@@ -1,0 +1,22 @@
+@import '../components/variables.scss';
+
+.blogs-list {
+  h3 {
+    font-weight: lighter;
+    text-align: center;
+    font-size: 1.4em;
+  }
+  img.image-eyecatch {
+    width: 100%;
+    border: 8px solid white;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0px rgba(0,0,0,0.2);
+    margin-bottom: 1em;
+  }
+  a > h3 {
+    color: $text-color;
+  }
+  .work-description {
+    margin-bottom: 1em;
+  }
+}

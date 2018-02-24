@@ -23,6 +23,11 @@ function Navigation() {
           </Link>
         </li>
         <li className="Navigation-item">
+          <a className="Navigation-link" href="/blogs">
+            Blogs
+          </a>
+        </li>
+        <li className="Navigation-item">
           <a className="Navigation-link" href="http://illust.odoruinu.net/">
             Illustrations
           </a>
@@ -30,11 +35,6 @@ function Navigation() {
         <li className="Navigation-item">
           <a className="Navigation-link" href="https://500px.com/craftzdog">
             Photos
-          </a>
-        </li>
-        <li className="Navigation-item">
-          <a className="Navigation-link" href="https://blog.craftz.dog/">
-            Blog
           </a>
         </li>
       </ul>
