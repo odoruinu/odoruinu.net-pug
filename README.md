@@ -7,8 +7,6 @@ This project is a fork of old [kriasoft/react-static-boilerplate](https://github
 It also includes some improvements such as Twitter Card and Open Graph support.
 Feel free to fork me to bootstrap your website!
 
-[![JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
-
 ## Features
 
 &nbsp; &nbsp; ✓ Next generation JavaScript with [Babel](https://github.com/babel/babel)<br>
