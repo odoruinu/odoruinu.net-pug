@@ -13,25 +13,25 @@ import { Grid, Col, Row } from 'react-bootstrap'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
 class Layout extends Component {
-  render () {
+  render() {
     return (
-      <Grid className='Layout'>
+      <Grid className="Layout">
         <Row>
-          <Col sm={3} className='header-left-side'>
-            <Link to='/'>
-              <img src='/dog-icon.png' width='120px' />
+          <Col sm={3} className="header-left-side">
+            <Link to="/">
+              <img src="/dog-icon.png" width="120px" />
             </Link>
-            <h1 className='title'>CRAFTZDOG</h1>
+            <h1 className="title">CRAFTZDOG</h1>
             <Navigation />
           </Col>
           <Col sm={9}>
             <ReactCSSTransitionGroup
-              transitionName='page-transition'
+              transitionName="page-transition"
               transitionEnterTimeout={900}
               transitionLeaveTimeout={300}
             >
               {[
-                <div key={this.props.path} className='page-container'>
+                <div key={this.props.path} className="page-container">
                   {this.props.children}
                 </div>
               ]}

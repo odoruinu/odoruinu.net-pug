@@ -15,16 +15,16 @@ export default class WorkPageLayout extends Component {
     eyecatch: PropTypes.string.isRequired,
     children: PropTypes.node.isRequired
   }
-  render () {
+  render() {
     return (
-      <div className='work-detail'>
+      <div className="work-detail">
         <h2>
-          <Link to='/works/'>Works</Link>
-          <span className='breadcrumb-chevron'>&gt;</span>
+          <Link to="/works/">Works</Link>
+          <span className="breadcrumb-chevron">&gt;</span>
           {this.props.title}
         </h2>
         <div>
-          <img src={this.props.eyecatch} className='image-eyecatch' />
+          <img src={this.props.eyecatch} className="image-eyecatch" />
         </div>
         {this.props.children}
       </div>

@@ -9,42 +9,37 @@ import './index.scss'
 import WorkPageLayout from '../../components/work-page-layout'
 
 export default class WorkPage extends Component {
-  static title = 'STYLY';
-  static image = '/works/styly_eyecatch.png';
-  static description = 'VR Creative tools for fashion brand';
+  static title = 'STYLY'
+  static image = '/works/styly_eyecatch.png'
+  static description = 'VR Creative tools for fashion brand'
 
-  render () {
+  render() {
     return (
       <WorkPageLayout
         title={WorkPage.title}
-        eyecatch='/works/styly_eyecatch.png'
+        eyecatch="/works/styly_eyecatch.png"
       >
         <div>
-          <img src='/works/styly_01.png' className='image-screenshot' />
+          <img src="/works/styly_01.png" className="image-screenshot" />
         </div>
 
         <h3>STYLY (2017, Psychic VR Lab)</h3>
-        <div className='work-description'>
-          <div>
-            ファッションブランドのためのVRツール
-          </div>
-          <div>
-            VR Creative tools for fashion brand
-          </div>
+        <div className="work-description">
+          <div>ファッションブランドのためのVRツール</div>
+          <div>VR Creative tools for fashion brand</div>
         </div>
         <div>
           <ul>
             <li>
-              <a href='http://suite.styly.cc/'>
-              Website
-              </a>
+              <a href="http://suite.styly.cc/">Website</a>
             </li>
           </ul>
         </div>
-        <div className='work-long-description'>
+        <div className="work-long-description">
           <p>
-            This is a VR tool for building virtual space towards extending fashion brand&apos;s expression ability of their concept.
-            I developed its web UIs and backend.
+            This is a VR tool for building virtual space towards extending
+            fashion brand&apos;s expression ability of their concept. I
+            developed its web UIs and backend.
           </p>
         </div>
       </WorkPageLayout>

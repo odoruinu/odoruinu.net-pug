@@ -11,35 +11,37 @@ import FloatedSection from '../components/floated-section'
 import Link from '../components/Link'
 
 export default class AboutPage extends Component {
-  static title = 'About';
-  static image = '/me.jpg';
+  static title = 'About'
+  static image = '/me.jpg'
   static description = 'Takuya is a freelance and a full-stack developer based in Tokyo with passion for building digital services/stuffs he wants.'
 
-  render () {
+  render() {
     return (
-      <div className='about'>
+      <div className="about">
         <h2>Takuya Matsuyama</h2>
         <p>Digital Craftsman ( Artist / Developer / Designer )</p>
         <p>
-          <Glyphicon glyph='map-marker' /> Tokyo, Japan
+          <Glyphicon glyph="map-marker" /> Tokyo, Japan
         </p>
         <FloatedSection delay={200}>
-          <img className='me' src='/me.jpg' width='100%' alt='My Work Style' />
+          <img className="me" src="/me.jpg" width="100%" alt="My Work Style" />
         </FloatedSection>
         <FloatedSection delay={300}>
           <h3>Why craftzdog?:</h3>
           <p>
-            It&apos;s an abbreviation for &apos;craftsman&apos; + &apos;dog&apos;. My avatar is dog icon for long time since I&apos;ve started publishing my works on the internet.
-            I love craftsmanship, I&apos;d be a craftsman.
-            That&apos;s why I decided to call myself &apos;craftsdog&apos; but this username was already taken by someone on Twitter.
-            So I&apos;m using craftzdog as my internet identity now.
+            It&apos;s an abbreviation for &apos;craftsman&apos; +
+            &apos;dog&apos;. My avatar is dog icon for long time since I&apos;ve
+            started publishing my works on the internet. I love craftsmanship,
+            I&apos;d be a craftsman. That&apos;s why I decided to call myself
+            &apos;craftsdog&apos; but this username was already taken by someone
+            on Twitter. So I&apos;m using craftzdog as my internet identity now.
           </p>
           <p>
-            My old handle name is &apos;noradaiko&apos;.
-            I changed it because it&apos;s hard to remember especially for non-Japanese speakers.
+            My old handle name is &apos;noradaiko&apos;. I changed it because
+            it&apos;s hard to remember especially for non-Japanese speakers.
           </p>
         </FloatedSection>
-        <FloatedSection delay={400} className='bio'>
+        <FloatedSection delay={400} className="bio">
           <h3>Bio:</h3>
           <p>
             <em>1984</em>
@@ -49,7 +51,8 @@ export default class AboutPage extends Component {
           </p>
           <p>
             <em>2010</em>
-            Completed the Master&apos;s Program in the Graduate School of Information Science at Nara Institute of Science and Technology
+            Completed the Master&apos;s Program in the Graduate School of
+            Information Science at Nara Institute of Science and Technology
             <br />
             奈良先端科学技術大学院大学情報科学研究科修士課程修了
           </p>
@@ -69,9 +72,11 @@ export default class AboutPage extends Component {
         <FloatedSection delay={500}>
           <h3>Work:</h3>
           <p>
-            Takuya is a freelance and a full-stack developer based in Tokyo with passion for building digital services/stuffs he wants.
-            He has a knack for all things launching products, from planning and designing all the way to solving real-life problems with code.
-            When not online, he loves hanging out with his camera.
+            Takuya is a freelance and a full-stack developer based in Tokyo with
+            passion for building digital services/stuffs he wants. He has a
+            knack for all things launching products, from planning and designing
+            all the way to solving real-life problems with code. When not
+            online, he loves hanging out with his camera.
           </p>
           <p>
             デジタル領域を中心に、自身の欲しいと思ったサービスを制作。
@@ -84,28 +89,29 @@ export default class AboutPage extends Component {
         <section>
           <h3>I ♥: </h3>
           <div>
-            Art, Music, Drawing, Playing Drums, Photography, Leica, Machine Learning
+            Art, Music, Drawing, Playing Drums, Photography, Leica, Machine
+            Learning
           </div>
         </section>
         <section>
           <h3>Got some works to request to me?:</h3>
           <div>
-            That's great!
-            I'm available for freelance work, I want to hear about your projects.
-            Please submit your message from <Link to='/contact'>the contact form</Link>.
+            That&apos;s great! I&apos;m available for freelance work, I want to
+            hear about your projects. Please submit your message from{' '}
+            <Link to="/contact">the contact form</Link>.
           </div>
         </section>
         <section>
           <h3>Contact me:</h3>
           <ul>
             <li>
-              <a href='https://twitter.com/craftzdog'>Twitter</a>
+              <a href="https://twitter.com/craftzdog">Twitter</a>
             </li>
             <li>
-              <a href='https://github.com/craftzdog'>GitHub</a>
+              <a href="https://github.com/craftzdog">GitHub</a>
             </li>
             <li>
-              <a href='mailto:hi@craftz.dog'>E-mail</a>
+              <a href="mailto:hi@craftz.dog">E-mail</a>
             </li>
           </ul>
         </section>

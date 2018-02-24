@@ -1,17 +1,11 @@
-/**
- * React Static Boilerplate
- * https://github.com/koistya/react-static-boilerplate
- * Copyright (c) Konstantin Tarkus (@koistya) | MIT license
- */
-
 import React, { Component } from 'react'
-import Link from '../../components/Link'
+import Link from '../components/Link'
 import { Col, Row } from 'react-bootstrap'
-import './index.scss'
-import FloatedSection from '../../components/floated-section'
+import './blogs.scss'
+import FloatedSection from '../components/floated-section'
 
 export default class WorkPage extends Component {
-  static title = 'Works'
+  static title = 'Blogs'
 
   render() {
     return (
@@ -20,15 +14,17 @@ export default class WorkPage extends Component {
         <FloatedSection delay={300}>
           <Row>
             <Col sm={6}>
-              <Link to="/works/inkdrop">
+              <a href="https://blog.craftz.dog/">
                 <img
                   src="/works/inkdrop_eyecatch.png"
                   className="image-eyecatch"
                 />
-                <h3>Inkdrop</h3>
-              </Link>
+                <h3>週休7日で働きたい</h3>
+              </a>
               <div className="work-description">
-                <div>Markdown愛好者のためのノートアプリ</div>
+                <div>
+                  フリーランスしつつ自作サービス開発しながら食っていきたいブログ
+                </div>
                 <div>The Notebook App for Markdown Lovers</div>
               </div>
             </Col>

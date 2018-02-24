@@ -10,17 +10,17 @@ import PropTypes from 'prop-types'
 export default class ErrorPage extends Component {
   static propTypes = {
     error: PropTypes.instanceOf(Error)
-  };
+  }
 
-  render () {
+  render() {
     return (
       <div>
         <h1>Error</h1>
-        <pre>{
-          this.props.error
+        <pre>
+          {this.props.error
             ? this.props.error.message + '\n\n' + this.props.error.stack
-            : 'A critical error occurred.'
-        }</pre>
+            : 'A critical error occurred.'}
+        </pre>
       </div>
     )
   }

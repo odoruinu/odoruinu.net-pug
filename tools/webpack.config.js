@@ -19,7 +19,7 @@ const JS_LOADER = {
 const POSTCSS_LOADER = {
   loader: 'postcss-loader',
   options: {
-    plugins: (loader) => {
+    plugins: loader => {
       return [
         require('postcss-import')({ addDependencyTo: loader }),
         require('precss')(),
@@ -39,10 +39,14 @@ const POSTCSS_LOADER = {
     }
   }
 }
-const babelConfig = JSON.parse(fs.readFileSync(path.join(__dirname, '../.babelrc'), 'utf8'))
+const babelConfig = JSON.parse(
+  fs.readFileSync(path.join(__dirname, '../.babelrc'), 'utf8')
+)
 Object.assign(babelConfig, {
   babelrc: false,
-  presets: babelConfig.presets.map(x => x === 'es2015' ? ['latest', { es2015: { modules: false } }] : x),
+  presets: babelConfig.presets.map(
+    x => (x === 'es2015' ? ['latest', { es2015: { modules: false } }] : x)
+  ),
   plugins: babelConfig.plugins.filter(p => p !== 'add-module-exports')
 })
 
@@ -74,7 +78,7 @@ const config = {
     }),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': DEBUG ? '"development"' : '"production"',
-      '__DEV__': DEBUG
+      __DEV__: DEBUG
     })
   ],
   module: {
@@ -82,19 +86,24 @@ const config = {
       {
         test: /[\\\/]app\.js$/,
         loader: path.join(__dirname, './lib/routes-loader.js')
-      }, {
+      },
+      {
         test: /\.json$/,
         loader: 'json-loader'
-      }, {
+      },
+      {
         test: /\.txt$/,
         loader: 'raw-loader'
-      }, {
+      },
+      {
         test: /\.css$/,
         loader: 'style-loader!css-loader'
-      }, {
+      },
+      {
         test: /\.(png|jpg|jpeg|gif|svg|woff|woff2)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
         loader: 'url-loader?limit=10000'
-      }, {
+      },
+      {
         test: /\.(eot|ttf|wav|mp3)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
         loader: 'file-loader'
       }
@@ -106,7 +115,9 @@ const config = {
 const appConfig = {
   ...config,
   entry: [
-    ...(WATCH ? ['webpack-hot-middleware/client', 'react-hot-loader/patch'] : []),
+    ...(WATCH
+      ? ['webpack-hot-middleware/client', 'react-hot-loader/patch']
+      : []),
     'bootstrap/dist/css/bootstrap.css',
     'font-awesome/css/font-awesome.css',
     './app.js'
@@ -119,35 +130,31 @@ const appConfig = {
   devtool: DEBUG ? 'cheap-source-map' : false,
   plugins: [
     ...config.plugins,
-    ...(DEBUG ? [] : [
-      new webpack.optimize.DedupePlugin(),
-      new webpack.optimize.UglifyJsPlugin(),
-      new webpack.optimize.AggressiveMergingPlugin()
-    ]),
-    ...(WATCH ? [
-      new webpack.HotModuleReplacementPlugin(),
-      new webpack.NoErrorsPlugin()
-    ] : [])
+    ...(DEBUG
+      ? []
+      : [
+          new webpack.optimize.DedupePlugin(),
+          new webpack.optimize.UglifyJsPlugin(),
+          new webpack.optimize.AggressiveMergingPlugin()
+        ]),
+    ...(WATCH
+      ? [new webpack.HotModuleReplacementPlugin(), new webpack.NoErrorsPlugin()]
+      : [])
   ],
   module: {
     rules: [
-      WATCH ? Object.assign({}, JS_LOADER, {
-        options: {
-          ...babelConfig,
-          plugins: [
-            'react-hot-loader/babel',
-            ...babelConfig.plugins
-          ]
-        }
-      }) : JS_LOADER,
+      WATCH
+        ? Object.assign({}, JS_LOADER, {
+            options: {
+              ...babelConfig,
+              plugins: ['react-hot-loader/babel', ...babelConfig.plugins]
+            }
+          })
+        : JS_LOADER,
       ...config.module.rules,
       {
         test: /\.scss$/,
-        use: [
-          'style-loader',
-          'css-loader',
-          POSTCSS_LOADER
-        ]
+        use: ['style-loader', 'css-loader', POSTCSS_LOADER]
       }
     ]
   }
@@ -182,10 +189,7 @@ const pagesConfig = {
       ...config.module.rules,
       {
         test: /\.scss$/,
-        use: [
-          'css-loader',
-          POSTCSS_LOADER
-        ]
+        use: ['css-loader', POSTCSS_LOADER]
       }
     ]
   }

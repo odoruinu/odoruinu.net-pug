@@ -19,11 +19,11 @@ export default class FloatedSection extends Component {
     delay: 300
   }
 
-  render () {
+  render() {
     const { delay, children, ...props } = this.props
     return (
       <ReactCSSTransitionGroup
-        transitionName='float-transition'
+        transitionName="float-transition"
         transitionAppear={true}
         transitionAppearTimeout={700 + delay}
         transitionEnter={false}
@@ -31,8 +31,8 @@ export default class FloatedSection extends Component {
       >
         {[
           <section
-            key='floated-section'
-            className='floated-section'
+            key="floated-section"
+            className="floated-section"
             style={{ transitionDelay: delay + 'ms' }}
             {...props}
           >
