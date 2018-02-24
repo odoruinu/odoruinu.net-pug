@@ -23,9 +23,9 @@ function Navigation() {
           </Link>
         </li>
         <li className="Navigation-item">
-          <a className="Navigation-link" href="/blogs">
+          <Link className="Navigation-link" to="/blogs">
             Blogs
-          </a>
+          </Link>
         </li>
         <li className="Navigation-item">
           <a className="Navigation-link" href="http://illust.odoruinu.net/">
