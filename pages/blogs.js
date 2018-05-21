@@ -49,13 +49,13 @@ export default class WorkPage extends Component {
         <FloatedSection delay={400}>
           <Row>
             <Col sm={6}>
-              <Link to="http://craftzdog.hateblo.jp/">
+              <a href="http://craftzdog.hateblo.jp/">
                 <img
                   src="/blogs/subblog_eyecatch.png"
                   className="image-eyecatch"
                 />
                 <h3>丁寧に手を抜く</h3>
-              </Link>
+              </a>
               <div className="work-description">
                 <div>ライフログ的な</div>
                 <div>My life logs in Japanese</div>
