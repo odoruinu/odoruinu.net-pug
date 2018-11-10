@@ -22,7 +22,7 @@ class Layout extends Component {
               <img src="/dog-icon.png" width="120px" />
             </Link>
             <h1 className="title">CRAFTZDOG</h1>
-            <Navigation />
+            <Navigation path={this.props.path} />
           </Col>
           <Col sm={9}>
             <ReactCSSTransitionGroup

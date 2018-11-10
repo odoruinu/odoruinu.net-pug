@@ -8,7 +8,6 @@ export default class ArtPage extends Component {
   render() {
     return (
       <div className="art-list">
-        <h2>Art</h2>
         <FloatedSection delay={300}>
           <div>
             <a href="https://500px.com/craftzdog">

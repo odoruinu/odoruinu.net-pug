@@ -40,7 +40,7 @@
   &:hover {
     text-decoration: none;
     border-bottom: 3px solid $brand-color;
-    color: $text-color;
+    // color: $text-color;
   }
 
   &:active, &:focus {
@@ -52,6 +52,12 @@
     font-size: 1.4em;
     padding-bottom: 0.2em;
     margin: 0 0.3em 0.3em 0.3em;
+  }
+
+  &.active {
+    text-decoration: none;
+    background-color: $brand-color;
+    color: white;
   }
 }
 

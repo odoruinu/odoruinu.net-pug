@@ -5,32 +5,48 @@
  */
 
 import React from 'react'
+import PropTypes from 'prop-types'
 import './Navigation.scss'
 import Link from '../Link'
 
-function Navigation() {
+function NavigationLink({ to, path, children }) {
+  const isActive = to === path ? ' active' : ''
+  return (
+    <Link className={'Navigation-link' + isActive} to={to}>
+      {children}
+    </Link>
+  )
+}
+NavigationLink.propTypes = {
+  to: PropTypes.string.isRequired,
+  path: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired
+}
+
+function Navigation(props) {
+  const { path } = props
   return (
     <div>
       <ul className="Navigation" role="menu">
         <li className="Navigation-item">
-          <Link className="Navigation-link" to="/about">
+          <NavigationLink path={path} to="/about">
             About
-          </Link>
+          </NavigationLink>
         </li>
         <li className="Navigation-item">
-          <Link className="Navigation-link" to="/works/">
+          <NavigationLink path={path} to="/works/">
             Works
-          </Link>
+          </NavigationLink>
         </li>
         <li className="Navigation-item">
-          <Link className="Navigation-link" to="/blogs">
+          <NavigationLink path={path} to="/blogs">
             Blogs
-          </Link>
+          </NavigationLink>
         </li>
         <li className="Navigation-item">
-          <Link className="Navigation-link" to="/art">
+          <NavigationLink path={path} to="/art">
             Art
-          </Link>
+          </NavigationLink>
         </li>
       </ul>
       <div className="Navigation-icon-group">
@@ -55,6 +71,9 @@ function Navigation() {
       </div>
     </div>
   )
+}
+Navigation.propTypes = {
+  path: PropTypes.string
 }
 
 export default Navigation

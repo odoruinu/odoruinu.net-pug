@@ -18,11 +18,6 @@ export default class WorkPageLayout extends Component {
   render() {
     return (
       <div className="work-detail">
-        <h2>
-          <Link to="/works/">Works</Link>
-          <span className="breadcrumb-chevron">&gt;</span>
-          {this.props.title}
-        </h2>
         <div>
           <img src={this.props.eyecatch} className="image-eyecatch" />
         </div>

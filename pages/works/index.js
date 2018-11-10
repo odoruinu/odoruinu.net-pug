@@ -16,7 +16,6 @@ export default class WorkPage extends Component {
   render() {
     return (
       <div className="works-list">
-        <h2>Works</h2>
         <FloatedSection delay={300}>
           <Row>
             <Col sm={6}>
