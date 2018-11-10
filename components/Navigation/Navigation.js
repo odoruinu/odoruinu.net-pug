@@ -28,14 +28,9 @@ function Navigation() {
           </Link>
         </li>
         <li className="Navigation-item">
-          <a className="Navigation-link" href="http://illust.odoruinu.net/">
-            Illustrations
-          </a>
-        </li>
-        <li className="Navigation-item">
-          <a className="Navigation-link" href="https://500px.com/craftzdog">
-            Photos
-          </a>
+          <Link className="Navigation-link" to="/art">
+            Art
+          </Link>
         </li>
       </ul>
       <div className="Navigation-icon-group">

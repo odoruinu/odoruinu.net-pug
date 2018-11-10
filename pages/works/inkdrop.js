@@ -34,7 +34,7 @@ export default class WorkPage extends Component {
               <div className="works-meta-title">Website</div>
               <div className="works-meta-body">
                 <a href="https://www.inkdrop.info/">
-                  www.inkdrop.info{' '}
+                  www.inkdrop.info
                   <i className="glyphicon glyphicon-new-window" />
                 </a>
               </div>
