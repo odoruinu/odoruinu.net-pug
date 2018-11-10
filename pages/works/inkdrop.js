@@ -29,28 +29,46 @@ export default class WorkPage extends Component {
           <div>The Notebook App Made for Markdown Lovers</div>
         </div>
         <div>
-          <ul>
-            <li>
-              <a href="https://www.inkdrop.info/">Website</a>
-            </li>
-            <li>Platforms: Windows/macOS/Linux/iOS/Android</li>
-          </ul>
+          <div className="works-meta">
+            <div className="works-meta-row">
+              <div className="works-meta-title">Website</div>
+              <div className="works-meta-body">
+                <a href="https://www.inkdrop.info/">
+                  www.inkdrop.info{' '}
+                  <i className="glyphicon glyphicon-new-window" />
+                </a>
+              </div>
+            </div>
+            <div className="works-meta-row">
+              <div className="works-meta-title">Platform</div>
+              <div className="works-meta-body">
+                Windows/macOS/Linux/iOS/Android
+              </div>
+            </div>
+          </div>
         </div>
         <div className="work-long-description">
-          <ul>
-            <li>
-              Blog:{' '}
-              <a href="https://hackernoon.com/markdown-note-taking-app-can-now-cover-half-of-rent-inkdrop-795de224ebf">
-                Markdown Note-taking App Can Now Cover Half of Rent
-              </a>
-            </li>
-            <li>
-              ブログ記事:{' '}
-              <a href="https://blog.craftz.dog/inkdrop%E3%81%A7%E5%AE%B6%E8%B3%83%E3%81%AE%E5%8D%8A%E5%88%86%E3%81%8C%E8%B3%84%E3%81%88%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%AA%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F-3f30f4e1e479">
-                MarkdownノートアプリInkdropで家賃の半分が賄えるようになりました
-              </a>
-            </li>
-          </ul>
+          <div className="works-meta">
+            <div className="works-meta-row">
+              <div className="works-meta-title">Blogpost</div>
+              <div className="works-meta-body">
+                <a href="https://blog.inkdrop.info/how-ive-attracted-the-first-500-paid-users-for-my-saas-that-costs-5-mo-7a5b94b8e820">
+                  How I’ve Attracted The First 500 Paid Users For My SaaS That
+                  Costs $5/mo
+                  <i className="glyphicon glyphicon-new-window" />
+                </a>
+              </div>
+            </div>
+            <div className="works-meta-row">
+              <div className="works-meta-title">ブログ記事</div>
+              <div className="works-meta-body">
+                <a href="https://blog.craftz.dog/how-ive-attracted-the-first-500-paid-users-for-my-saas-that-costs-5-mo-4111ddad9f50">
+                  月5ドルの自作サービスで最初の500人を集めるまでにやったこと
+                  <i className="glyphicon glyphicon-new-window" />
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </WorkPageLayout>
     )

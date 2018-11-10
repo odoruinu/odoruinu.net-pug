@@ -22,7 +22,7 @@
 .Navigation-item {
   padding: 0.5em 0;
   font-size: 1.25em;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 .Navigation-icon-group {
@@ -63,6 +63,7 @@
     justify-content: flex-end;
     text-align: left;
     border: none;
+    overflow: hidden;
   }
   .Navigation-icon-group {
     text-align: left;

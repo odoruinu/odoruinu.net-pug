@@ -8,7 +8,6 @@
   }
   section {
     margin: 0.8em 0;
-    font-weight: lighter;
     em {
       font-weight: bold;
       margin-right: 1em;
@@ -31,5 +30,10 @@
     color: $text-color;
     font-family: sans-serif;
     font-weight: bold;
+    > span {
+      display: inline-block;
+      padding-bottom: 4px;
+      border-bottom: 3px solid $text-color;
+    }
   }
 }

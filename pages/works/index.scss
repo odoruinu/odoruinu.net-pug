@@ -19,4 +19,40 @@
   .work-description {
     margin-bottom: 1em;
   }
+
+}
+
+.works-meta {
+  display: table;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+  box-shadow: 0 2px 2px 0px rgba(0,0,0,0.2);
+  width: 100%;
+  background-color: white;
+}
+.works-meta-row {
+  display: table-row;
+  &:not(:last-child) {
+    .works-meta-title {
+      border-bottom: 1px solid white;
+    }
+    .works-meta-body {
+      border-bottom: 1px solid #d0d0d0;
+    }
+  }
+}
+.works-meta-title {
+  display: table-cell;
+  font-weight: bold;
+  padding: 0.4em;
+  background-color: rgb(143, 143, 143);
+  color: white;
+}
+.works-meta-body {
+  display: table-cell;
+  padding: 0.4em;
+
+  .glyphicon {
+    margin-left: 0.4rem;
+  }
 }

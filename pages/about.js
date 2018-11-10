@@ -26,23 +26,29 @@ export default class AboutPage extends Component {
         <FloatedSection delay={200}>
           <img className="me" src="/me.jpg" width="100%" alt="My Work Style" />
         </FloatedSection>
-        <FloatedSection delay={300}>
-          <h3>Why craftzdog?:</h3>
+        <FloatedSection delay={500}>
+          <h3>
+            <span>Work</span>
+          </h3>
           <p>
-            It&apos;s an abbreviation for &apos;craftsman&apos; +
-            &apos;dog&apos;. My avatar is dog icon for long time since I&apos;ve
-            started publishing my works on the internet. I love craftsmanship,
-            I&apos;d be a craftsman. That&apos;s why I decided to call myself
-            &apos;craftsdog&apos; but this username was already taken by someone
-            on Twitter. So I&apos;m using craftzdog as my internet identity now.
+            Takuya is a freelance and a full-stack developer based in Tokyo with
+            passion for building digital services/stuffs he wants. He has a
+            knack for all things launching products, from planning and designing
+            all the way to solving real-life problems with code. When not
+            online, he loves hanging out with his camera.
           </p>
           <p>
-            My old handle name is &apos;noradaiko&apos;. I changed it because
-            it&apos;s hard to remember especially for non-Japanese speakers.
+            デジタル領域を中心に、自身の欲しいと思ったサービスを制作。
+            企画からデザイン・開発・運用まで全て一人で行う。
+            iOSなどのスマホアプリからウェブアプリまで、技術やプラットフォームを限定せず幅広く活動。
+            その傍ら、フリーランスとして様々なプロジェクトに参加。
+            枠に囚われずオーダーメイドで柔軟にモノを作る「クラフトマンシップ」を得意とする。
           </p>
         </FloatedSection>
         <FloatedSection delay={400} className="bio">
-          <h3>Bio:</h3>
+          <h3>
+            <span>Bio</span>
+          </h3>
           <p>
             <em>1984</em>
             Born in Osaka, Japan.
@@ -69,32 +75,19 @@ export default class AboutPage extends Component {
             フリーランス
           </p>
         </FloatedSection>
-        <FloatedSection delay={500}>
-          <h3>Work:</h3>
-          <p>
-            Takuya is a freelance and a full-stack developer based in Tokyo with
-            passion for building digital services/stuffs he wants. He has a
-            knack for all things launching products, from planning and designing
-            all the way to solving real-life problems with code. When not
-            online, he loves hanging out with his camera.
-          </p>
-          <p>
-            デジタル領域を中心に、自身の欲しいと思ったサービスを制作。
-            企画からデザイン・開発・運用まで全て一人で行う。
-            iOSなどのスマホアプリからウェブアプリまで、技術やプラットフォームを限定せず幅広く活動。
-            その傍ら、フリーランスとして様々なプロジェクトに参加。
-            枠に囚われずオーダーメイドで柔軟にモノを作る「クラフトマンシップ」を得意とする。
-          </p>
-        </FloatedSection>
         <section>
-          <h3>I ♥: </h3>
+          <h3>
+            <span>I ♥</span>
+          </h3>
           <div>
             Art, Music, Drawing, Playing Drums, Photography, Leica, Machine
             Learning
           </div>
         </section>
         <section>
-          <h3>Got some works to request to me?:</h3>
+          <h3>
+            <span>Got some works to request to me?</span>
+          </h3>
           <div>
             That&apos;s great! I&apos;m available for freelance work, I want to
             hear about your projects. Please submit your message from{' '}
@@ -102,7 +95,9 @@ export default class AboutPage extends Component {
           </div>
         </section>
         <section>
-          <h3>Contact me:</h3>
+          <h3>
+            <span>Contact me</span>
+          </h3>
           <ul>
             <li>
               <a href="https://twitter.com/craftzdog">Twitter</a>
@@ -115,6 +110,23 @@ export default class AboutPage extends Component {
             </li>
           </ul>
         </section>
+        <FloatedSection delay={300}>
+          <h3>
+            <span>Why craftzdog?</span>
+          </h3>
+          <p>
+            It&apos;s an abbreviation for &apos;craftsman&apos; +
+            &apos;dog&apos;. My avatar is dog icon for long time since I&apos;ve
+            started publishing my works on the internet. I love craftsmanship,
+            I&apos;d be a craftsman. That&apos;s why I decided to call myself
+            &apos;craftsdog&apos; but this username was already taken by someone
+            on Twitter. So I&apos;m using craftzdog as my internet identity now.
+          </p>
+          <p>
+            My old handle name is &apos;noradaiko&apos;. I changed it because
+            it&apos;s hard to remember especially for non-Japanese speakers.
+          </p>
+        </FloatedSection>
       </div>
     )
   }
