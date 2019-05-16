@@ -32,6 +32,13 @@ export default class WorkPage extends Component {
             </a>
           </Col>
         </Row>
+        <Row>
+          <Col sm={12}>
+            <a href="/works/modetokyo_03.png" target="_blank">
+              <img src="/works/modetokyo_03.jpg" className="image-screenshot" />
+            </a>
+          </Col>
+        </Row>
 
         <h3>mode.tokyo (2016)</h3>
         <div className="work-description">
