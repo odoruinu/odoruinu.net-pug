@@ -12,7 +12,7 @@ import Link from '../components/Link'
 
 export default class AboutPage extends Component {
   static title = 'About'
-  static image = '/me.jpg'
+  static image = '/me2.jpg'
   static description = 'Takuya is a freelance and a full-stack developer based in Tokyo with passion for building digital services/stuffs he wants.'
 
   render() {
@@ -24,7 +24,7 @@ export default class AboutPage extends Component {
           <Glyphicon glyph="map-marker" /> Tokyo, Japan
         </p>
         <FloatedSection delay={200}>
-          <img className="me" src="/me.jpg" width="100%" alt="My Work Style" />
+          <img className="me" src="/me2.jpg" width="100%" alt="Me" />
         </FloatedSection>
         <FloatedSection delay={500}>
           <h3>
