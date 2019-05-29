@@ -25,6 +25,16 @@ export default class AboutPage extends Component {
         </p>
         <FloatedSection delay={200}>
           <img className="me" src="/me2.jpg" width="100%" alt="Me" />
+          <div className="right aligned caption">
+            at{' '}
+            <a
+              href="https://www.meetup.com/React-Native-London/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              React Native London
+            </a>
+          </div>
         </FloatedSection>
         <FloatedSection delay={500}>
           <h3>
