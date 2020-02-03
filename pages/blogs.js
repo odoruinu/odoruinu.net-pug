@@ -33,7 +33,7 @@ export default class WorkPage extends Component {
                   src="/blogs/workaslife_eyecatch.png"
                   className="image-eyecatch"
                 />
-                <h3>Work as Life</h3>
+                <h3>Dev as Life</h3>
               </a>
               <div className="work-description">
                 <div>
