@@ -119,7 +119,7 @@ const appConfig = {
       ? ['webpack-hot-middleware/client', 'react-hot-loader/patch']
       : []),
     'bootstrap/dist/css/bootstrap.css',
-    'font-awesome/css/font-awesome.css',
+    '@fortawesome/fontawesome-free/css/all.css',
     './app.js'
   ],
   output: {

@@ -54,19 +54,25 @@ function Navigation(props) {
           className="Navigation-link Navigation-icon"
           href="https://www.instagram.com/craftzdog/"
         >
-          <i className="fa fa-instagram" />
+          <i className="fab fa-instagram" />
         </a>
         <a
           className="Navigation-link Navigation-icon"
           href="https://github.com/craftzdog"
         >
-          <i className="fa fa-github" />
+          <i className="fab fa-github" />
         </a>
         <a
           className="Navigation-link Navigation-icon"
           href="https://twitter.com/craftzdog"
         >
-          <i className="fa fa-twitter" />
+          <i className="fab fa-twitter" />
+        </a>
+        <a
+          className="Navigation-link Navigation-icon"
+          href="https://www.youtube.com/channel/UC7yZ6keOGsvERMp2HaEbbXQ/"
+        >
+          <i className="fab fa-youtube" />
         </a>
       </div>
     </div>

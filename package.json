@@ -1,6 +1,7 @@
 {
   "name": "craftzdog-website",
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0",
     "autoprefixer": "^7.1.1",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.25.0",
@@ -24,7 +25,6 @@
     "eslint-plugin-react": "^7.6.1",
     "fbjs": "^0.4.0",
     "file-loader": "^0.11.2",
-    "font-awesome": "^4.7.0",
     "git-repository": "^0.1.1",
     "glob": "^5.0.15",
     "history": "^4.6.1",
