@@ -13,7 +13,7 @@ import Link from '../components/Link'
 export default class AboutPage extends Component {
   static title = 'About'
   static image = '/me2.jpg'
-  static description = 'Takuya is a freelance and a full-stack developer based in Tokyo with passion for building digital services/stuffs he wants.'
+  static description = 'Takuya is a freelance and a full-stack developer based in Osaka with passion for building digital services/stuffs he wants.'
 
   render() {
     return (
@@ -21,7 +21,7 @@ export default class AboutPage extends Component {
         <h2>Takuya Matsuyama</h2>
         <p>Digital Craftsman ( Artist / Developer / Designer )</p>
         <p>
-          <Glyphicon glyph="map-marker" /> Tokyo, Japan
+          <Glyphicon glyph="map-marker" /> Osaka, Japan
         </p>
         <FloatedSection delay={200}>
           <img className="me" src="/me2.jpg" width="100%" alt="Me" />
@@ -41,7 +41,7 @@ export default class AboutPage extends Component {
             <span>Work</span>
           </h3>
           <p>
-            Takuya is a freelance and a full-stack developer based in Tokyo with
+            Takuya is a freelance and a full-stack developer based in Osaka with
             passion for building digital services/stuffs he wants. He has a
             knack for all things launching products, from planning and designing
             all the way to solving real-life problems with code. When not
