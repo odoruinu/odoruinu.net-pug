@@ -70,7 +70,7 @@ function Navigation(props) {
         </a>
         <a
           className="Navigation-link Navigation-icon"
-          href="https://www.youtube.com/channel/UC7yZ6keOGsvERMp2HaEbbXQ/"
+          href="https://www.youtube.com/c/devaslife"
         >
           <i className="fab fa-youtube" />
         </a>
