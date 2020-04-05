@@ -32,6 +32,15 @@ export default class WorkPage extends Component {
             </div>
           </Col>
         </Row>
+        <div>
+          <img src="/works/walknote_05.png" className="image-screenshot" />
+        </div>
+        <div>
+          <img src="/works/walknote_03.png" className="image-screenshot" />
+        </div>
+        <div>
+          <img src="/works/walknote_04.png" className="image-screenshot" />
+        </div>
 
         <h3>walknote (2011-2016)</h3>
         <div className="work-description">
