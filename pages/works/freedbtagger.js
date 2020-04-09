@@ -20,10 +20,14 @@ export default class WorkPage extends Component {
         eyecatch="/works/freedbtagger_eyecatch.png"
       >
         <div>
-          <img src="/works/freedbtagger_01.jpg" className="image-screenshot" />
+          <img
+            src="/works/freedbtagger_01.jpg"
+            className="image-screenshot"
+            alt="image screenshot"
+          />
         </div>
         <h3>
-          <img src="/works/freedbtagger_icon.gif" />
+          <img src="/works/freedbtagger_icon.gif" alt="image screenshot" />
         </h3>
         <h3>freeDBTagger</h3>
         <div className="work-description">

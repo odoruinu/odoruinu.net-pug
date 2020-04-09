@@ -20,7 +20,11 @@ export default class WorkPage extends Component {
         eyecatch="/works/inkdrop_eyecatch.png"
       >
         <div>
-          <img src="/works/inkdrop_02.jpg" className="image-screenshot" />
+          <img
+            src="/works/inkdrop_02.jpg"
+            className="image-screenshot"
+            alt="image screenshot"
+          />
         </div>
 
         <h3>Inkdrop (2016-)</h3>

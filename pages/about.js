@@ -13,7 +13,8 @@ import Link from '../components/Link'
 export default class AboutPage extends Component {
   static title = 'About'
   static image = '/me2.jpg'
-  static description = 'Takuya is a freelance and a full-stack developer based in Osaka with passion for building digital services/stuffs he wants.'
+  static description =
+    'Takuya is a freelance and a full-stack developer based in Osaka with passion for building digital services/stuffs he wants.'
 
   render() {
     return (

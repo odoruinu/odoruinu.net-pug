@@ -13,7 +13,12 @@ export default class IndexPage extends Component {
     return (
       <div className="top-page">
         <div>
-          <img className="top-image" src="/cover2.jpg" width="100%" />
+          <img
+            className="top-image"
+            src="/cover2.jpg"
+            width="100%"
+            alt="cover image"
+          />
         </div>
         <div className="top-page--footer">
           The source code of this website is available&nbsp;
@@ -23,7 +28,8 @@ export default class IndexPage extends Component {
             rel="noopener noreferrer"
           >
             here on GitHub
-          </a>.
+          </a>
+          .
         </div>
       </div>
     )

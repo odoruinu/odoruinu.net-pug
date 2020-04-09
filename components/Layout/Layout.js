@@ -18,8 +18,8 @@ class Layout extends Component {
       <Grid className="Layout">
         <Row>
           <Col sm={3} className="header-left-side">
-            <Link to="/">
-              <img src="/dog-icon.png" width="120px" />
+            <Link to="/" title="Link to top page">
+              <img src="/dog-icon.png" width="120px" alt="dog icon" />
             </Link>
             <h1 className="title">CRAFTZDOG</h1>
             <Navigation path={this.props.path} />

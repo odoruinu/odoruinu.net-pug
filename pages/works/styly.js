@@ -20,15 +20,27 @@ export default class WorkPage extends Component {
         eyecatch="/works/styly_eyecatch.png"
       >
         <div>
-          <img src="/works/styly_01.png" className="image-screenshot" />
+          <img
+            src="/works/styly_01.png"
+            className="image-screenshot"
+            alt="image screenshot"
+          />
         </div>
 
         <div>
-          <img src="/works/styly_02.png" className="image-screenshot" />
+          <img
+            src="/works/styly_02.png"
+            className="image-screenshot"
+            alt="image screenshot"
+          />
         </div>
 
         <div>
-          <img src="/works/styly_03.png" className="image-screenshot" />
+          <img
+            src="/works/styly_03.png"
+            className="image-screenshot"
+            alt="image screenshot"
+          />
         </div>
 
         <h3>STYLY (2017, Psychic VR Lab)</h3>

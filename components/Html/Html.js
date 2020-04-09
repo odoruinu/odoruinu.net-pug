@@ -13,7 +13,7 @@ function Html({ title, description, image, body }) {
   const coverUrl = `${config.baseUrl}/cover.jpg`
   const imageUrl = image ? `${config.baseUrl}${image}` : coverUrl
   return (
-    <html className="no-js" lang="">
+    <html className="no-js" lang="en">
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />

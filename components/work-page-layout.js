@@ -6,7 +6,6 @@
 
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import Link from './Link'
 import './work-page-layout.scss'
 
 export default class WorkPageLayout extends Component {
@@ -19,7 +18,11 @@ export default class WorkPageLayout extends Component {
     return (
       <div className="work-detail">
         <div>
-          <img src={this.props.eyecatch} className="image-eyecatch" />
+          <img
+            src={this.props.eyecatch}
+            className="image-eyecatch"
+            alt="cover image"
+          />
         </div>
         {this.props.children}
       </div>

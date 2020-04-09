@@ -63,7 +63,11 @@ export default class WorkPage extends Component {
             </div>
           </Col>
           <Col sm={6}>
-            <img src="/works/pichu2_01.png" className="image-screenshot" />
+            <img
+              src="/works/pichu2_01.png"
+              className="image-screenshot"
+              alt="image screenshot"
+            />
           </Col>
         </Row>
       </WorkPageLayout>

@@ -12,7 +12,7 @@ import Link from '../Link'
 function NavigationLink({ to, path, children }) {
   const isActive = to === path ? ' active' : ''
   return (
-    <Link className={'Navigation-link' + isActive} to={to}>
+    <Link className={'Navigation-link' + isActive} to={to} role="menuitem">
       {children}
     </Link>
   )
@@ -53,24 +53,28 @@ function Navigation(props) {
         <a
           className="Navigation-link Navigation-icon"
           href="https://www.instagram.com/craftzdog/"
+          title="Instagram"
         >
           <i className="fab fa-instagram" />
         </a>
         <a
           className="Navigation-link Navigation-icon"
           href="https://github.com/craftzdog"
+          title="GitHub"
         >
           <i className="fab fa-github" />
         </a>
         <a
           className="Navigation-link Navigation-icon"
           href="https://twitter.com/craftzdog"
+          title="Twitter"
         >
           <i className="fab fa-twitter" />
         </a>
         <a
           className="Navigation-link Navigation-icon"
           href="https://www.youtube.com/c/devaslife"
+          title="YouTube channel"
         >
           <i className="fab fa-youtube" />
         </a>

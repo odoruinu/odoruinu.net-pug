@@ -11,7 +11,11 @@ export default class ArtPage extends Component {
         <FloatedSection delay={300}>
           <div>
             <a href="https://500px.com/craftzdog">
-              <img src="/photos.jpg" className="image-eyecatch" />
+              <img
+                src="/photos.jpg"
+                className="image-eyecatch"
+                alt="my photos"
+              />
               <h3>
                 Photography
                 <i className="glyphicon glyphicon-new-window" />
@@ -22,7 +26,11 @@ export default class ArtPage extends Component {
         <FloatedSection delay={500}>
           <div>
             <a href="http://illust.odoruinu.net/">
-              <img src="/cover.jpg" className="image-eyecatch" />
+              <img
+                src="/cover.jpg"
+                className="image-eyecatch"
+                alt="my illustrations"
+              />
               <h3>
                 Illustrations
                 <i className="glyphicon glyphicon-new-window" />

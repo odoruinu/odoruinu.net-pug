@@ -12,7 +12,8 @@ import WorkPageLayout from '../../components/work-page-layout'
 export default class WorkPage extends Component {
   static title = '麺利き'
   static image = '/works/menkiki_eyecatch.png'
-  static description = 'The app which can show ramen shops based on a photo of ramen you want to eat'
+  static description =
+    'The app which can show ramen shops based on a photo of ramen you want to eat'
 
   render() {
     return (
@@ -23,12 +24,20 @@ export default class WorkPage extends Component {
         <Row>
           <Col sm={6}>
             <div>
-              <img src="/works/menkiki_01.png" className="image-screenshot" />
+              <img
+                src="/works/menkiki_01.png"
+                className="image-screenshot"
+                alt="image screenshot"
+              />
             </div>
           </Col>
           <Col sm={6}>
             <div>
-              <img src="/works/menkiki_02.png" className="image-screenshot" />
+              <img
+                src="/works/menkiki_02.png"
+                className="image-screenshot"
+                alt="image screenshot"
+              />
             </div>
           </Col>
         </Row>
@@ -45,7 +54,11 @@ export default class WorkPage extends Component {
               className="link-appstore"
               href="https://itunes.apple.com/app/麺利き/id1035645520?mt=8"
             >
-              <img src="/works/appstore.png" className="image-appstore" />
+              <img
+                src="/works/appstore.png"
+                className="image-appstore"
+                alt="appstore"
+              />
             </a>
           </div>
         </div>

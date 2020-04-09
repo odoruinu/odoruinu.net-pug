@@ -12,7 +12,8 @@ import WorkPageLayout from '../../components/work-page-layout'
 export default class WorkPage extends Component {
   static title = 'mode.tokyo'
   static image = '/works/modetokyo_eyecatch.png'
-  static description = 'The mode magazine for understanding to personally enjoy Japan'
+  static description =
+    'The mode magazine for understanding to personally enjoy Japan'
 
   render() {
     return (
@@ -23,19 +24,31 @@ export default class WorkPage extends Component {
         <Row>
           <Col sm={6}>
             <a href="/works/modetokyo_01.png" target="_blank">
-              <img src="/works/modetokyo_01.png" className="image-screenshot" />
+              <img
+                src="/works/modetokyo_01.png"
+                className="image-screenshot"
+                alt="image screenshot"
+              />
             </a>
           </Col>
           <Col sm={6}>
             <a href="/works/modetokyo_02.png" target="_blank">
-              <img src="/works/modetokyo_02.png" className="image-screenshot" />
+              <img
+                src="/works/modetokyo_02.png"
+                className="image-screenshot"
+                alt="image screenshot"
+              />
             </a>
           </Col>
         </Row>
         <Row>
           <Col sm={12}>
             <a href="/works/modetokyo_03.png" target="_blank">
-              <img src="/works/modetokyo_03.jpg" className="image-screenshot" />
+              <img
+                src="/works/modetokyo_03.jpg"
+                className="image-screenshot"
+                alt="image screenshot"
+              />
             </a>
           </Col>
         </Row>

@@ -5,11 +5,14 @@ extends:
   - plugin:prettier/recommended
   - plugin:react/recommended
 parser: babel-eslint
+settings:
+  react:
+    version: "15.5"
 env:
   browser: true
 globals:
-  __DEV__: true,
-  fetch: true,
+  __DEV__: true
+  fetch: true
   FormData: true
 rules:
   no-useless-escape: 0
@@ -19,6 +22,7 @@ rules:
       trailingComma: none
       singleQuote: true
       semi: false
+      arrowParens: avoid
   prefer-const: 2
   no-unused-vars:
     - 2

@@ -17,7 +17,7 @@ export default class WorkPage extends Component {
     return (
       <WorkPageLayout title="amembo" eyecatch="/works/amembo_eyecatch.png">
         <h3>
-          <img src="/works/amembo_icon.png" />
+          <img src="/works/amembo_icon.png" alt="image screenshot" />
         </h3>
         <h3>amembo</h3>
         <div className="work-description">
