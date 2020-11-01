@@ -14,8 +14,10 @@ import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
 class Layout extends Component {
   render() {
+    const pageId =
+      'page-' + this.props.path.replace(/\/$/, '').replace(/\//g, '-').substr(1)
     return (
-      <Grid className="Layout">
+      <Grid className={`Layout ${pageId}`}>
         <Row>
           <Col sm={3} className="header-left-side">
             <Link to="/" title="Link to top page">
