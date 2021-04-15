@@ -43,7 +43,7 @@ export default class AboutPage extends Component {
           </h3>
           <p>
             Takuya is a freelance and a full-stack developer based in Osaka with
-            passion for building digital services/stuffs he wants. He has a
+            a passion for building digital services/stuff he wants. He has a
             knack for all things launching products, from planning and designing
             all the way to solving real-life problems with code. When not
             online, he loves hanging out with his camera.
